@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Juice/Add Payment/input_CCName",
+      "brokenLocator": "id(\"mat-input-3\")[count(. | //*[@id \u003d \u0027mat-input-3\u0027]) \u003d count(//*[@id \u003d \u0027mat-input-3\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-0\u0027]/div/div/mat-form-field/div/div/div[3]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241112_232853/Juice/TS_Buying Product/20241112_232854/Object Repository/Juice/Add Payment/input_CCName_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Juice/Add Payment/input_CardNumber",
+      "brokenLocator": "//*[@type \u003d \u0027number\u0027 and @id \u003d \u0027mat-input-4\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-0\u0027]/div/div/mat-form-field[2]/div/div/div[3]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241112_232853/Juice/TS_Buying Product/20241112_232854/Object Repository/Juice/Add Payment/input_CardNumber_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Juice/Add Payment/select_Month",
+      "brokenLocator": "//select[@id\u003d\u0027mat-input-5\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-0\u0027]/div/div/mat-form-field[3]/div/div/div[3]/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241112_232853/Juice/TS_Buying Product/20241112_232854/Object Repository/Juice/Add Payment/select_Month_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Juice/Add Payment/select_Year",
+      "brokenLocator": "//select[@id\u003d\u0027mat-input-6\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027cdk-accordion-child-0\u0027]/div/div/mat-form-field[4]/div/div/div[3]/select",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241112_232853/Juice/TS_Buying Product/20241112_232854/Object Repository/Juice/Add Payment/select_Year_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Juice/Buying Products/button_navigate_next Continue",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OpenSea\u0027])[1]/following::button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[(text() \u003d \u0027 navigate_next Continue\u0027 or . \u003d \u0027 navigate_next Continue\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241112_232853/Juice/TS_Buying Product/20241112_232854/Object Repository/Juice/Buying Products/button_navigate_next Continue_customAttributes.png"
+    }
+  ]
+}

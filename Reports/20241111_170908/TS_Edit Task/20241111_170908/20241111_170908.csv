@@ -1,0 +1,90 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Edit Task,,,,11-11-2024 17:09:13,11-11-2024 17:14:32,5m - 19.300s,PASSED
+,,,,,,,
+Test Cases/TC_Edit Task,,,,11-11-2024 17:09:13,11-11-2024 17:10:36,1m - 23.546s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 17:09:13,11-11-2024 17:10:10,57.284s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption""), 0)",,,,11-11-2024 17:10:10,11-11-2024 17:10:10,0.188s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Edit""), 0)",,,,11-11-2024 17:10:10,11-11-2024 17:10:12,1.970s,PASSED
+"setText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title""), eTaskTitle, 0)",,,,11-11-2024 17:10:12,11-11-2024 17:10:14,2.064s,PASSED
+"setText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task""), eTask, 0)",,,,11-11-2024 17:10:14,11-11-2024 17:10:16,1.983s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date""), 0)",,,,11-11-2024 17:10:16,11-11-2024 17:10:18,1.613s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.view.View - Date-16""), 0)",,,,11-11-2024 17:10:18,11-11-2024 17:10:19,1.202s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.Button - DateOK""), 0)",,,,11-11-2024 17:10:19,11-11-2024 17:10:20,0.281s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/android.widget.EditText - Set Time""), 0)",,,,11-11-2024 17:10:20,11-11-2024 17:10:20,0.741s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button""), 0)",,,,11-11-2024 17:10:20,11-11-2024 17:10:22,2.017s,PASSED
+"setText(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours""), eTimeHours, 0)",,,,11-11-2024 17:10:22,11-11-2024 17:10:24,2.154s,PASSED
+"setText(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes""), eTimeMinutes, 0)",,,,11-11-2024 17:10:24,11-11-2024 17:10:27,2.656s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM""), 0)",,,,11-11-2024 17:10:27,11-11-2024 17:10:29,1.424s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM""), 0)",,,,11-11-2024 17:10:29,11-11-2024 17:10:29,0.775s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK""), 0)",,,,11-11-2024 17:10:29,11-11-2024 17:10:29,0.173s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory""), 0)",,,,11-11-2024 17:10:29,11-11-2024 17:10:30,0.886s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal""), 0)",,,,11-11-2024 17:10:30,11-11-2024 17:10:33,2.161s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.CreateTask""), 0)",,,,11-11-2024 17:10:33,11-11-2024 17:10:33,0.222s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle""), eTaskTitle)",,,,11-11-2024 17:10:33,11-11-2024 17:10:34,1.648s,PASSED
+closeApplication(),,,,11-11-2024 17:10:34,11-11-2024 17:10:36,1.964s,PASSED
+,,,,,,,
+Test Cases/TC_Edit Task,,,,11-11-2024 17:10:36,11-11-2024 17:11:56,1m - 19.179s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 17:10:36,11-11-2024 17:11:29,52.283s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption""), 0)",,,,11-11-2024 17:11:29,11-11-2024 17:11:29,0.176s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Edit""), 0)",,,,11-11-2024 17:11:29,11-11-2024 17:11:31,2.036s,PASSED
+"setText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title""), eTaskTitle, 0)",,,,11-11-2024 17:11:31,11-11-2024 17:11:33,1.984s,PASSED
+"setText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task""), eTask, 0)",,,,11-11-2024 17:11:33,11-11-2024 17:11:36,2.622s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date""), 0)",,,,11-11-2024 17:11:36,11-11-2024 17:11:38,2.107s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.view.View - Date-16""), 0)",,,,11-11-2024 17:11:38,11-11-2024 17:11:38,0.857s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.Button - DateOK""), 0)",,,,11-11-2024 17:11:38,11-11-2024 17:11:39,0.312s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/android.widget.EditText - Set Time""), 0)",,,,11-11-2024 17:11:39,11-11-2024 17:11:40,0.760s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button""), 0)",,,,11-11-2024 17:11:40,11-11-2024 17:11:42,2.045s,PASSED
+"setText(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours""), eTimeHours, 0)",,,,11-11-2024 17:11:42,11-11-2024 17:11:44,2.601s,PASSED
+"setText(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes""), eTimeMinutes, 0)",,,,11-11-2024 17:11:44,11-11-2024 17:11:47,3.018s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM""), 0)",,,,11-11-2024 17:11:47,11-11-2024 17:11:49,1.485s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM""), 0)",,,,11-11-2024 17:11:49,11-11-2024 17:11:50,0.945s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK""), 0)",,,,11-11-2024 17:11:50,11-11-2024 17:11:50,0.194s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory""), 0)",,,,11-11-2024 17:11:50,11-11-2024 17:11:51,0.910s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal""), 0)",,,,11-11-2024 17:11:51,11-11-2024 17:11:52,1.458s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.CreateTask""), 0)",,,,11-11-2024 17:11:52,11-11-2024 17:11:52,0.208s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle""), eTaskTitle)",,,,11-11-2024 17:11:52,11-11-2024 17:11:54,1.184s,PASSED
+closeApplication(),,,,11-11-2024 17:11:54,11-11-2024 17:11:56,1.985s,PASSED
+,,,,,,,
+Test Cases/TC_Edit Task,,,,11-11-2024 17:11:56,11-11-2024 17:13:11,1m - 14.884s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 17:11:56,11-11-2024 17:12:44,48.526s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption""), 0)",,,,11-11-2024 17:12:44,11-11-2024 17:12:44,0.182s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Edit""), 0)",,,,11-11-2024 17:12:44,11-11-2024 17:12:47,2.505s,PASSED
+"setText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title""), eTaskTitle, 0)",,,,11-11-2024 17:12:47,11-11-2024 17:12:49,2.102s,PASSED
+"setText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task""), eTask, 0)",,,,11-11-2024 17:12:49,11-11-2024 17:12:52,2.575s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date""), 0)",,,,11-11-2024 17:12:52,11-11-2024 17:12:53,1.713s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.view.View - Date-16""), 0)",,,,11-11-2024 17:12:53,11-11-2024 17:12:54,0.819s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.Button - DateOK""), 0)",,,,11-11-2024 17:12:54,11-11-2024 17:12:54,0.428s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/android.widget.EditText - Set Time""), 0)",,,,11-11-2024 17:12:54,11-11-2024 17:12:55,0.653s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button""), 0)",,,,11-11-2024 17:12:55,11-11-2024 17:12:57,1.742s,PASSED
+"setText(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours""), eTimeHours, 0)",,,,11-11-2024 17:12:57,11-11-2024 17:12:59,2.205s,PASSED
+"setText(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes""), eTimeMinutes, 0)",,,,11-11-2024 17:12:59,11-11-2024 17:13:02,3.387s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM""), 0)",,,,11-11-2024 17:13:02,11-11-2024 17:13:04,1.449s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM""), 0)",,,,11-11-2024 17:13:04,11-11-2024 17:13:05,0.980s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK""), 0)",,,,11-11-2024 17:13:05,11-11-2024 17:13:05,0.185s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory""), 0)",,,,11-11-2024 17:13:05,11-11-2024 17:13:06,0.883s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal""), 0)",,,,11-11-2024 17:13:06,11-11-2024 17:13:07,1.510s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.CreateTask""), 0)",,,,11-11-2024 17:13:07,11-11-2024 17:13:08,0.205s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle""), eTaskTitle)",,,,11-11-2024 17:13:08,11-11-2024 17:13:09,1.137s,PASSED
+closeApplication(),,,,11-11-2024 17:13:09,11-11-2024 17:13:11,1.689s,PASSED
+,,,,,,,
+Test Cases/TC_Edit Task,,,,11-11-2024 17:13:11,11-11-2024 17:14:32,1m - 21.402s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 17:13:11,11-11-2024 17:14:07,56.541s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption""), 0)",,,,11-11-2024 17:14:07,11-11-2024 17:14:07,0.183s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Edit""), 0)",,,,11-11-2024 17:14:07,11-11-2024 17:14:09,2.004s,PASSED
+"setText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title""), eTaskTitle, 0)",,,,11-11-2024 17:14:09,11-11-2024 17:14:11,1.979s,PASSED
+"setText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task""), eTask, 0)",,,,11-11-2024 17:14:11,11-11-2024 17:14:14,2.905s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date""), 0)",,,,11-11-2024 17:14:14,11-11-2024 17:14:16,1.630s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.view.View - Date-16""), 0)",,,,11-11-2024 17:14:16,11-11-2024 17:14:17,0.875s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.Button - DateOK""), 0)",,,,11-11-2024 17:14:17,11-11-2024 17:14:17,0.403s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/android.widget.EditText - Set Time""), 0)",,,,11-11-2024 17:14:17,11-11-2024 17:14:18,0.652s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button""), 0)",,,,11-11-2024 17:14:18,11-11-2024 17:14:19,1.727s,PASSED
+"setText(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours""), eTimeHours, 0)",,,,11-11-2024 17:14:19,11-11-2024 17:14:22,2.203s,PASSED
+"setText(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes""), eTimeMinutes, 0)",,,,11-11-2024 17:14:22,11-11-2024 17:14:24,2.241s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM""), 0)",,,,11-11-2024 17:14:24,11-11-2024 17:14:25,1.528s,PASSED
+"tap(findTestObject(""TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM""), 0)",,,,11-11-2024 17:14:25,11-11-2024 17:14:26,0.772s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK""), 0)",,,,11-11-2024 17:14:26,11-11-2024 17:14:26,0.191s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory""), 0)",,,,11-11-2024 17:14:26,11-11-2024 17:14:27,0.883s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal""), 0)",,,,11-11-2024 17:14:27,11-11-2024 17:14:29,1.461s,PASSED
+"tap(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.CreateTask""), 0)",,,,11-11-2024 17:14:29,11-11-2024 17:14:29,0.205s,PASSED
+"verifyElementText(findTestObject(""Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle""), eTaskTitle)",,,,11-11-2024 17:14:29,11-11-2024 17:14:30,1.166s,PASSED
+closeApplication(),,,,11-11-2024 17:14:30,11-11-2024 17:14:32,1.842s,PASSED

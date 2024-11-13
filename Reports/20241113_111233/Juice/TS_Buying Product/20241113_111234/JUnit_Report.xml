@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Buying Product" time="312.133" tests="3" failures="0" errors="0">
+   <testsuite name="TS_Buying Product" tests="3" failures="0" errors="0" time="312.133" skipped="0" timestamp="13-11-2024T11:12:40" hostname="aq - DESKTOP-4SVMIJA" id="Test Suites/Juice/TS_Buying Product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\aq\\Katalon Studio\\TAK_Akhir\\Reports\\20241113_111233\\Juice\\TS_Buying Product\\20241113_111234"/>
+         <property name="logFiles" value="C:\\Users\\aq\\Katalon Studio\\TAK_Akhir\\Reports\\20241113_111233\\Juice\\TS_Buying Product\\20241113_111234\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aq - DESKTOP-4SVMIJA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="4b383863b7f450d4dde9aebd45c239f4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Juice/TC_Buying Products" time="105.613" classname="Test Cases/TC_Juice/TC_Buying Products" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:12:40 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/TC_Buying Products: Test Cases/TC_Juice/TC_Buying Products
+
+13-11-2024T11:12:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/TC_Create Account"), ["Email":Email, "Password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/TC_Create Account' successfully
+
+13-11-2024T11:12:41 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/TC_Create Account: Test Cases/TC_Juice/TC_Create Account
+
+13-11-2024T11:12:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Browser URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Browser URL' successfully
+
+13-11-2024T11:12:41 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Browser URL: Test Cases/TC_Juice/Block/Browser URL
+
+13-11-2024T11:12:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-11-2024T11:12:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-11-2024T11:12:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-11-2024T11:12:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-11-2024T11:12:42 - [TEST_STEP][PASSED] - navigateToUrl("https://juice-shop.herokuapp.com/#/"): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-11-2024T11:12:47 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-11-2024T11:12:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Browser URL' successfully
+
+13-11-2024T11:12:47 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button_Dismiss")): Object: 'Object Repository/Juice/Create Account/Button_Dismiss' is clicked on
+
+13-11-2024T11:12:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button_Dismiss' is clicked on
+
+13-11-2024T11:12:48 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button Account")): Object: 'Object Repository/Juice/Create Account/Button Account' is clicked on
+
+13-11-2024T11:12:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button Account' is clicked on
+
+13-11-2024T11:12:48 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button Login")): Object: 'Object Repository/Juice/Create Account/Button Login' is clicked on
+
+13-11-2024T11:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button Login' is clicked on
+
+13-11-2024T11:12:49 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/div_Not yet a customer")): Object: 'Object Repository/Juice/Create Account/div_Not yet a customer' is clicked on
+
+13-11-2024T11:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/div_Not yet a customer' is clicked on
+
+13-11-2024T11:12:49 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Create Account/input_RegisterEmail"), Email): Text 'ace2@gmail.com' is set on object 'Object Repository/Juice/Create Account/input_RegisterEmail'
+
+13-11-2024T11:12:50 - [MESSAGE][PASSED] - Text 'ace2@gmail.com' is set on object 'Object Repository/Juice/Create Account/input_RegisterEmail'
+
+13-11-2024T11:12:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Juice/Create Account/input_RegisterPassword"), Password): Text ****** has been set on object 'Object Repository/Juice/Create Account/input_RegisterPassword'
+
+13-11-2024T11:12:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Juice/Create Account/input_RegisterPassword'
+
+13-11-2024T11:12:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Juice/Create Account/input_Password must be 5-40 characters long_eeca64"), Password): Text ****** has been set on object 'Object Repository/Juice/Create Account/input_Password must be 5-40 characters long_eeca64'
+
+13-11-2024T11:12:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Juice/Create Account/input_Password must be 5-40 characters long_eeca64'
+
+13-11-2024T11:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/span_SecurityDropdown")): Object: 'Object Repository/Juice/Create Account/span_SecurityDropdown' is clicked on
+
+13-11-2024T11:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/span_SecurityDropdown' is clicked on
+
+13-11-2024T11:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/span_Your eldest siblings middle name"), STOP_ON_FAILURE): Object: 'Object Repository/Juice/Create Account/span_Your eldest siblings middle name' is clicked on
+
+13-11-2024T11:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/span_Your eldest siblings middle name' is clicked on
+
+13-11-2024T11:12:51 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Create Account/input_SecurityAnswer"), "tole"): Text 'tole' is set on object 'Object Repository/Juice/Create Account/input_SecurityAnswer'
+
+13-11-2024T11:12:52 - [MESSAGE][PASSED] - Text 'tole' is set on object 'Object Repository/Juice/Create Account/input_SecurityAnswer'
+
+13-11-2024T11:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button_Register")): Object: 'Object Repository/Juice/Create Account/Button_Register' is clicked on
+
+13-11-2024T11:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button_Register' is clicked on
+
+13-11-2024T11:12:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Create Account/h1_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Juice/Create Account/h1_Login' are matched.
+
+13-11-2024T11:12:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Create Account/h1_Login' are matched.
+
+13-11-2024T11:12:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/TC_Create Account' successfully
+
+13-11-2024T11:12:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Login"), ["Email":Email, "Password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Login' successfully
+
+13-11-2024T11:12:54 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Login: Test Cases/TC_Juice/Block/Login
+
+13-11-2024T11:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/span_Account")): Object: 'Object Repository/Juice/Login/span_Account' is clicked on
+
+13-11-2024T11:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/span_Account' is clicked on
+
+13-11-2024T11:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/button_exit_to_app  Login")): Object: 'Object Repository/Juice/Login/button_exit_to_app  Login' is clicked on
+
+13-11-2024T11:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/button_exit_to_app  Login' is clicked on
+
+13-11-2024T11:12:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Juice/Login/input_Login_email"), Email): Text 'ace2@gmail.com' is set on object 'Object Repository/Juice/Login/input_Login_email'
+
+13-11-2024T11:12:55 - [MESSAGE][PASSED] - Text 'ace2@gmail.com' is set on object 'Object Repository/Juice/Login/input_Login_email'
+
+13-11-2024T11:12:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Juice/Login/input_Email_password"), Password): Text ****** has been set on object 'Object Repository/Juice/Login/input_Email_password'
+
+13-11-2024T11:12:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Juice/Login/input_Email_password'
+
+13-11-2024T11:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/button_exit_to_app  Log in")): Object: 'Object Repository/Juice/Login/button_exit_to_app  Log in' is clicked on
+
+13-11-2024T11:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/button_exit_to_app  Log in' is clicked on
+
+13-11-2024T11:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/button_account_circle  Account")): Object: 'Object Repository/Juice/Login/button_account_circle  Account' is clicked on
+
+13-11-2024T11:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/button_account_circle  Account' is clicked on
+
+13-11-2024T11:12:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Juice/Login/span_testgmail.com"), Email): Actual text and expected text of test object 'Object Repository/Juice/Login/span_testgmail.com' are matched.
+
+13-11-2024T11:12:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Login/span_testgmail.com' are matched.
+
+13-11-2024T11:12:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Login' successfully
+
+13-11-2024T11:12:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Add Address"), ["Country":Country, "Name":Name, "MNumber":MNumber, "ZCode":ZCode, "Address":Address, "State":State, "City":City], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Add Address' successfully
+
+13-11-2024T11:12:57 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Add Address: Test Cases/TC_Juice/Block/Add Address
+
+13-11-2024T11:12:58 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/Button_OrdersPayment")): Object: 'Object Repository/Juice/Add Address/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:12:58 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/Button_MySavedAddress")): Object: 'Object Repository/Juice/Add Address/Button_MySavedAddress' is clicked on
+
+13-11-2024T11:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/Button_MySavedAddress' is clicked on
+
+13-11-2024T11:12:58 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/Button_AddNewAddress")): Object: 'Object Repository/Juice/Add Address/Button_AddNewAddress' is clicked on
+
+13-11-2024T11:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/Button_AddNewAddress' is clicked on
+
+13-11-2024T11:12:59 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_Country"), Country): Text 'Country1' is set on object 'Object Repository/Juice/Add Address/input_Country'
+
+13-11-2024T11:12:59 - [MESSAGE][PASSED] - Text 'Country1' is set on object 'Object Repository/Juice/Add Address/input_Country'
+
+13-11-2024T11:12:59 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_Name"), Name): Text 'Nama1' is set on object 'Object Repository/Juice/Add Address/input_Name'
+
+13-11-2024T11:13:00 - [MESSAGE][PASSED] - Text 'Nama1' is set on object 'Object Repository/Juice/Add Address/input_Name'
+
+13-11-2024T11:13:00 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_MobileNumber"), MNumber): Text '10283910' is set on object 'Object Repository/Juice/Add Address/input_MobileNumber'
+
+13-11-2024T11:13:01 - [MESSAGE][PASSED] - Text '10283910' is set on object 'Object Repository/Juice/Add Address/input_MobileNumber'
+
+13-11-2024T11:13:01 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_ZipCode"), ZCode): Text '13451' is set on object 'Object Repository/Juice/Add Address/input_ZipCode'
+
+13-11-2024T11:13:01 - [MESSAGE][PASSED] - Text '13451' is set on object 'Object Repository/Juice/Add Address/input_ZipCode'
+
+13-11-2024T11:13:01 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/textarea_Address"), Address): Text 'Address1' is set on object 'Object Repository/Juice/Add Address/textarea_Address'
+
+13-11-2024T11:13:02 - [MESSAGE][PASSED] - Text 'Address1' is set on object 'Object Repository/Juice/Add Address/textarea_Address'
+
+13-11-2024T11:13:02 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_City"), City): Text 'City1' is set on object 'Object Repository/Juice/Add Address/input_City'
+
+13-11-2024T11:13:02 - [MESSAGE][PASSED] - Text 'City1' is set on object 'Object Repository/Juice/Add Address/input_City'
+
+13-11-2024T11:13:02 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_State"), State): Text 'State1' is set on object 'Object Repository/Juice/Add Address/input_State'
+
+13-11-2024T11:13:03 - [MESSAGE][PASSED] - Text 'State1' is set on object 'Object Repository/Juice/Add Address/input_State'
+
+13-11-2024T11:13:03 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/button_send  Submit")): Object: 'Object Repository/Juice/Add Address/button_send  Submit' is clicked on
+
+13-11-2024T11:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/button_send  Submit' is clicked on
+
+13-11-2024T11:13:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Add Address/mat-TitleName"), Name): Actual text and expected text of test object 'Object Repository/Juice/Add Address/mat-TitleName' are matched.
+
+13-11-2024T11:13:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Add Address/mat-TitleName' are matched.
+
+13-11-2024T11:13:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Add Address' successfully
+
+13-11-2024T11:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_Account")): Object: 'Object Repository/Juice/Add Payment/Button_Account' is clicked on
+
+13-11-2024T11:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_Account' is clicked on
+
+13-11-2024T11:13:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Add Payment"), ["CCName":CCName, "CCNumber":CCNumber, "CCMonth":CCMounth, "CCYear":CCYear], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Add Payment' successfully
+
+13-11-2024T11:13:04 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Add Payment: Test Cases/TC_Juice/Block/Add Payment
+
+13-11-2024T11:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_OrdersPayment")): Object: 'Object Repository/Juice/Add Payment/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_My Payment Options")): Object: 'Object Repository/Juice/Add Payment/Button_My Payment Options' is clicked on
+
+13-11-2024T11:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_My Payment Options' is clicked on
+
+13-11-2024T11:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/mat-panel-title_Add new card")): Object: 'Object Repository/Juice/Add Payment/mat-panel-title_Add new card' is clicked on
+
+13-11-2024T11:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/mat-panel-title_Add new card' is clicked on
+
+13-11-2024T11:13:05 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Payment/input_CCName"), CCName): Text 'Test1' is set on object 'Object Repository/Juice/Add Payment/input_CCName'
+
+13-11-2024T11:13:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("mat-input-3")[count(. | //*[@id = 'mat-input-3']) = count(//*[@id = 'mat-input-3'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:13:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CCName'. Try using Self-healing.
+
+13-11-2024T11:13:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CCName' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]/input'.
+
+13-11-2024T11:13:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("mat-input-3")[count(. | //*[@id = 'mat-input-3']) = count(//*[@id = 'mat-input-3'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:13:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CCName'. Try using Self-healing.
+
+13-11-2024T11:13:22 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CCName' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]/input'.
+
+13-11-2024T11:13:22 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/Juice/Add Payment/input_CCName'
+
+13-11-2024T11:13:22 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Payment/input_CardNumber"), CCNumber): Text '1230987890213450' is set on object 'Object Repository/Juice/Add Payment/input_CardNumber'
+
+13-11-2024T11:13:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'number' and @id = 'mat-input-4']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:13:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CardNumber'. Try using Self-healing.
+
+13-11-2024T11:13:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CardNumber' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[2]/div/div/div[3]/input'.
+
+13-11-2024T11:13:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'number' and @id = 'mat-input-4']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:13:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CardNumber'. Try using Self-healing.
+
+13-11-2024T11:13:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CardNumber' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[2]/div/div/div[3]/input'.
+
+13-11-2024T11:13:39 - [MESSAGE][PASSED] - Text '1230987890213450' is set on object 'Object Repository/Juice/Add Payment/input_CardNumber'
+
+13-11-2024T11:13:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Juice/Add Payment/select_Month"), CCMonth, true): All options with value '7' are selected in object 'Object Repository/Juice/Add Payment/select_Month'  using regular expression
+
+13-11-2024T11:13:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='mat-input-5']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:13:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/select_Month'. Try using Self-healing.
+
+13-11-2024T11:13:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/select_Month' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[3]/div/div/div[3]/select'.
+
+13-11-2024T11:13:48 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/Juice/Add Payment/select_Month'  using regular expression
+
+13-11-2024T11:13:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Juice/Add Payment/select_Year"), CCYear, true): All options with value '2084' are selected in object 'Object Repository/Juice/Add Payment/select_Year'  using regular expression
+
+13-11-2024T11:13:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='mat-input-6']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:13:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/select_Year'. Try using Self-healing.
+
+13-11-2024T11:13:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/select_Year' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[4]/div/div/div[3]/select'.
+
+13-11-2024T11:13:57 - [MESSAGE][PASSED] - All options with value '2084' are selected in object 'Object Repository/Juice/Add Payment/select_Year'  using regular expression
+
+13-11-2024T11:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_Submit")): Object: 'Object Repository/Juice/Add Payment/Button_Submit' is clicked on
+
+13-11-2024T11:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_Submit' is clicked on
+
+13-11-2024T11:13:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Add Payment/mat-cell_TittleCCName"), CCName): Actual text and expected text of test object 'Object Repository/Juice/Add Payment/mat-cell_TittleCCName' are matched.
+
+13-11-2024T11:13:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Add Payment/mat-cell_TittleCCName' are matched.
+
+13-11-2024T11:13:58 - [MESSAGE][INFO] - 
+
+13-11-2024T11:13:58 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+13-11-2024T11:13:58 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+13-11-2024T11:13:58 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+13-11-2024T11:13:58 - [MESSAGE][INFO] - ==============================================================
+
+13-11-2024T11:13:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Add Payment' successfully
+
+13-11-2024T11:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_OWASP Juice Shop")): Object: 'Object Repository/Juice/Buying Products/button_OWASP Juice Shop' is clicked on
+
+13-11-2024T11:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_OWASP Juice Shop' is clicked on
+
+13-11-2024T11:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/Button_Add to Basket")): Object: 'Object Repository/Juice/Buying Products/Button_Add to Basket' is clicked on
+
+13-11-2024T11:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/Button_Add to Basket' is clicked on
+
+13-11-2024T11:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Add to Basket_1")): Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1' is clicked on
+
+13-11-2024T11:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1' is clicked on
+
+13-11-2024T11:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Add to Basket_1_2_3")): Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1_2_3' is clicked on
+
+13-11-2024T11:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1_2_3' is clicked on
+
+13-11-2024T11:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_cart")): Object: 'Object Repository/Juice/Buying Products/button_cart' is clicked on
+
+13-11-2024T11:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_cart' is clicked on
+
+13-11-2024T11:14:04 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Checkout")): Object: 'Object Repository/Juice/Buying Products/button_Checkout' is clicked on
+
+13-11-2024T11:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Checkout' is clicked on
+
+13-11-2024T11:14:04 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/span_RadioAddress")): Object: 'Object Repository/Juice/Buying Products/span_RadioAddress' is clicked on
+
+13-11-2024T11:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/span_RadioAddress' is clicked on
+
+13-11-2024T11:14:05 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_navigate_next Continue")): Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:14:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='OpenSea'])[1]/following::button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:14:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Buying Products/button_navigate_next Continue'. Try using Self-healing.
+
+13-11-2024T11:14:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Buying Products/button_navigate_next Continue' was broken. Propose an alternative one: '//button[(text() = ' navigate_next Continue' or . = ' navigate_next Continue')]'.
+
+13-11-2024T11:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:14:13 - [TEST_STEP][PASSED] - click(Delivery): Object: 'Object Repository/Juice/Buying Products/span_Delivery5Days' is clicked on
+
+13-11-2024T11:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/span_Delivery5Days' is clicked on
+
+13-11-2024T11:14:14 - [TEST_STEP][PASSED] - select_delivery = Delivery: null
+
+13-11-2024T11:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_navigate_next Continue")): Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:14:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='OpenSea'])[1]/following::button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:14:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Buying Products/button_navigate_next Continue'. Try using Self-healing.
+
+13-11-2024T11:14:22 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Buying Products/button_navigate_next Continue' was broken. Propose an alternative one: '//button[(text() = ' navigate_next Continue' or . = ' navigate_next Continue')]'.
+
+13-11-2024T11:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:14:22 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/span_RadioPayment")): Object: 'Object Repository/Juice/Buying Products/span_RadioPayment' is clicked on
+
+13-11-2024T11:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/span_RadioPayment' is clicked on
+
+13-11-2024T11:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_navigate_next Continue")): Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Place your order and pay")): Object: 'Object Repository/Juice/Buying Products/button_Place your order and pay' is clicked on
+
+13-11-2024T11:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Place your order and pay' is clicked on
+
+13-11-2024T11:14:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Buying Products/h1_Thank you for your purchase"), "Thank you for your purchase!"): Actual text and expected text of test object 'Object Repository/Juice/Buying Products/h1_Thank you for your purchase' are matched.
+
+13-11-2024T11:14:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Buying Products/h1_Thank you for your purchase' are matched.
+
+13-11-2024T11:14:26 - [TEST_STEP][PASSED] - switch (select_delivery): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Juice/TC_Buying Products" time="102.993" classname="Test Cases/TC_Juice/TC_Buying Products" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:14:26 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/TC_Buying Products: Test Cases/TC_Juice/TC_Buying Products
+
+13-11-2024T11:14:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/TC_Create Account"), ["Email":Email, "Password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/TC_Create Account' successfully
+
+13-11-2024T11:14:26 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/TC_Create Account: Test Cases/TC_Juice/TC_Create Account
+
+13-11-2024T11:14:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Browser URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Browser URL' successfully
+
+13-11-2024T11:14:26 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Browser URL: Test Cases/TC_Juice/Block/Browser URL
+
+13-11-2024T11:14:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-11-2024T11:14:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-11-2024T11:14:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-11-2024T11:14:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-11-2024T11:14:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-11-2024T11:14:27 - [TEST_STEP][PASSED] - navigateToUrl("https://juice-shop.herokuapp.com/#/"): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-11-2024T11:14:32 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-11-2024T11:14:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Browser URL' successfully
+
+13-11-2024T11:14:32 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button_Dismiss")): Object: 'Object Repository/Juice/Create Account/Button_Dismiss' is clicked on
+
+13-11-2024T11:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button_Dismiss' is clicked on
+
+13-11-2024T11:14:32 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button Account")): Object: 'Object Repository/Juice/Create Account/Button Account' is clicked on
+
+13-11-2024T11:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button Account' is clicked on
+
+13-11-2024T11:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button Login")): Object: 'Object Repository/Juice/Create Account/Button Login' is clicked on
+
+13-11-2024T11:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button Login' is clicked on
+
+13-11-2024T11:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/div_Not yet a customer")): Object: 'Object Repository/Juice/Create Account/div_Not yet a customer' is clicked on
+
+13-11-2024T11:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/div_Not yet a customer' is clicked on
+
+13-11-2024T11:14:34 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Create Account/input_RegisterEmail"), Email): Text 'ace3@gmail.com' is set on object 'Object Repository/Juice/Create Account/input_RegisterEmail'
+
+13-11-2024T11:14:35 - [MESSAGE][PASSED] - Text 'ace3@gmail.com' is set on object 'Object Repository/Juice/Create Account/input_RegisterEmail'
+
+13-11-2024T11:14:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Juice/Create Account/input_RegisterPassword"), Password): Text ****** has been set on object 'Object Repository/Juice/Create Account/input_RegisterPassword'
+
+13-11-2024T11:14:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Juice/Create Account/input_RegisterPassword'
+
+13-11-2024T11:14:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Juice/Create Account/input_Password must be 5-40 characters long_eeca64"), Password): Text ****** has been set on object 'Object Repository/Juice/Create Account/input_Password must be 5-40 characters long_eeca64'
+
+13-11-2024T11:14:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Juice/Create Account/input_Password must be 5-40 characters long_eeca64'
+
+13-11-2024T11:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/span_SecurityDropdown")): Object: 'Object Repository/Juice/Create Account/span_SecurityDropdown' is clicked on
+
+13-11-2024T11:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/span_SecurityDropdown' is clicked on
+
+13-11-2024T11:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/span_Your eldest siblings middle name"), STOP_ON_FAILURE): Object: 'Object Repository/Juice/Create Account/span_Your eldest siblings middle name' is clicked on
+
+13-11-2024T11:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/span_Your eldest siblings middle name' is clicked on
+
+13-11-2024T11:14:36 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Create Account/input_SecurityAnswer"), "tole"): Text 'tole' is set on object 'Object Repository/Juice/Create Account/input_SecurityAnswer'
+
+13-11-2024T11:14:37 - [MESSAGE][PASSED] - Text 'tole' is set on object 'Object Repository/Juice/Create Account/input_SecurityAnswer'
+
+13-11-2024T11:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button_Register")): Object: 'Object Repository/Juice/Create Account/Button_Register' is clicked on
+
+13-11-2024T11:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button_Register' is clicked on
+
+13-11-2024T11:14:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Create Account/h1_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Juice/Create Account/h1_Login' are matched.
+
+13-11-2024T11:14:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Create Account/h1_Login' are matched.
+
+13-11-2024T11:14:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/TC_Create Account' successfully
+
+13-11-2024T11:14:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Login"), ["Email":Email, "Password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Login' successfully
+
+13-11-2024T11:14:38 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Login: Test Cases/TC_Juice/Block/Login
+
+13-11-2024T11:14:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/span_Account")): Object: 'Object Repository/Juice/Login/span_Account' is clicked on
+
+13-11-2024T11:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/span_Account' is clicked on
+
+13-11-2024T11:14:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/button_exit_to_app  Login")): Object: 'Object Repository/Juice/Login/button_exit_to_app  Login' is clicked on
+
+13-11-2024T11:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/button_exit_to_app  Login' is clicked on
+
+13-11-2024T11:14:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Juice/Login/input_Login_email"), Email): Text 'ace3@gmail.com' is set on object 'Object Repository/Juice/Login/input_Login_email'
+
+13-11-2024T11:14:39 - [MESSAGE][PASSED] - Text 'ace3@gmail.com' is set on object 'Object Repository/Juice/Login/input_Login_email'
+
+13-11-2024T11:14:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Juice/Login/input_Email_password"), Password): Text ****** has been set on object 'Object Repository/Juice/Login/input_Email_password'
+
+13-11-2024T11:14:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Juice/Login/input_Email_password'
+
+13-11-2024T11:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/button_exit_to_app  Log in")): Object: 'Object Repository/Juice/Login/button_exit_to_app  Log in' is clicked on
+
+13-11-2024T11:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/button_exit_to_app  Log in' is clicked on
+
+13-11-2024T11:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/button_account_circle  Account")): Object: 'Object Repository/Juice/Login/button_account_circle  Account' is clicked on
+
+13-11-2024T11:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/button_account_circle  Account' is clicked on
+
+13-11-2024T11:14:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Juice/Login/span_testgmail.com"), Email): Actual text and expected text of test object 'Object Repository/Juice/Login/span_testgmail.com' are matched.
+
+13-11-2024T11:14:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Login/span_testgmail.com' are matched.
+
+13-11-2024T11:14:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Login' successfully
+
+13-11-2024T11:14:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Add Address"), ["Country":Country, "Name":Name, "MNumber":MNumber, "ZCode":ZCode, "Address":Address, "State":State, "City":City], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Add Address' successfully
+
+13-11-2024T11:14:41 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Add Address: Test Cases/TC_Juice/Block/Add Address
+
+13-11-2024T11:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/Button_OrdersPayment")): Object: 'Object Repository/Juice/Add Address/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/Button_MySavedAddress")): Object: 'Object Repository/Juice/Add Address/Button_MySavedAddress' is clicked on
+
+13-11-2024T11:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/Button_MySavedAddress' is clicked on
+
+13-11-2024T11:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/Button_AddNewAddress")): Object: 'Object Repository/Juice/Add Address/Button_AddNewAddress' is clicked on
+
+13-11-2024T11:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/Button_AddNewAddress' is clicked on
+
+13-11-2024T11:14:43 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_Country"), Country): Text 'Country2' is set on object 'Object Repository/Juice/Add Address/input_Country'
+
+13-11-2024T11:14:43 - [MESSAGE][PASSED] - Text 'Country2' is set on object 'Object Repository/Juice/Add Address/input_Country'
+
+13-11-2024T11:14:43 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_Name"), Name): Text 'Nama2' is set on object 'Object Repository/Juice/Add Address/input_Name'
+
+13-11-2024T11:14:44 - [MESSAGE][PASSED] - Text 'Nama2' is set on object 'Object Repository/Juice/Add Address/input_Name'
+
+13-11-2024T11:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_MobileNumber"), MNumber): Text '10283912' is set on object 'Object Repository/Juice/Add Address/input_MobileNumber'
+
+13-11-2024T11:14:44 - [MESSAGE][PASSED] - Text '10283912' is set on object 'Object Repository/Juice/Add Address/input_MobileNumber'
+
+13-11-2024T11:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_ZipCode"), ZCode): Text '13425' is set on object 'Object Repository/Juice/Add Address/input_ZipCode'
+
+13-11-2024T11:14:45 - [MESSAGE][PASSED] - Text '13425' is set on object 'Object Repository/Juice/Add Address/input_ZipCode'
+
+13-11-2024T11:14:45 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/textarea_Address"), Address): Text 'Address2' is set on object 'Object Repository/Juice/Add Address/textarea_Address'
+
+13-11-2024T11:14:45 - [MESSAGE][PASSED] - Text 'Address2' is set on object 'Object Repository/Juice/Add Address/textarea_Address'
+
+13-11-2024T11:14:45 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_City"), City): Text 'City2' is set on object 'Object Repository/Juice/Add Address/input_City'
+
+13-11-2024T11:14:46 - [MESSAGE][PASSED] - Text 'City2' is set on object 'Object Repository/Juice/Add Address/input_City'
+
+13-11-2024T11:14:46 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_State"), State): Text 'State2' is set on object 'Object Repository/Juice/Add Address/input_State'
+
+13-11-2024T11:14:46 - [MESSAGE][PASSED] - Text 'State2' is set on object 'Object Repository/Juice/Add Address/input_State'
+
+13-11-2024T11:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/button_send  Submit")): Object: 'Object Repository/Juice/Add Address/button_send  Submit' is clicked on
+
+13-11-2024T11:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/button_send  Submit' is clicked on
+
+13-11-2024T11:14:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Add Address/mat-TitleName"), Name): Actual text and expected text of test object 'Object Repository/Juice/Add Address/mat-TitleName' are matched.
+
+13-11-2024T11:14:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Add Address/mat-TitleName' are matched.
+
+13-11-2024T11:14:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Add Address' successfully
+
+13-11-2024T11:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_Account")): Object: 'Object Repository/Juice/Add Payment/Button_Account' is clicked on
+
+13-11-2024T11:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_Account' is clicked on
+
+13-11-2024T11:14:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Add Payment"), ["CCName":CCName, "CCNumber":CCNumber, "CCMonth":CCMounth, "CCYear":CCYear], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Add Payment' successfully
+
+13-11-2024T11:14:48 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Add Payment: Test Cases/TC_Juice/Block/Add Payment
+
+13-11-2024T11:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_OrdersPayment")): Object: 'Object Repository/Juice/Add Payment/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_My Payment Options")): Object: 'Object Repository/Juice/Add Payment/Button_My Payment Options' is clicked on
+
+13-11-2024T11:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_My Payment Options' is clicked on
+
+13-11-2024T11:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/mat-panel-title_Add new card")): Object: 'Object Repository/Juice/Add Payment/mat-panel-title_Add new card' is clicked on
+
+13-11-2024T11:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/mat-panel-title_Add new card' is clicked on
+
+13-11-2024T11:14:49 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Payment/input_CCName"), CCName): Text 'Test2' is set on object 'Object Repository/Juice/Add Payment/input_CCName'
+
+13-11-2024T11:14:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("mat-input-3")[count(. | //*[@id = 'mat-input-3']) = count(//*[@id = 'mat-input-3'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:14:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CCName'. Try using Self-healing.
+
+13-11-2024T11:14:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CCName' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]/input'.
+
+13-11-2024T11:15:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("mat-input-3")[count(. | //*[@id = 'mat-input-3']) = count(//*[@id = 'mat-input-3'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:15:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CCName'. Try using Self-healing.
+
+13-11-2024T11:15:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CCName' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]/input'.
+
+13-11-2024T11:15:06 - [MESSAGE][PASSED] - Text 'Test2' is set on object 'Object Repository/Juice/Add Payment/input_CCName'
+
+13-11-2024T11:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Payment/input_CardNumber"), CCNumber): Text '1230987890213450' is set on object 'Object Repository/Juice/Add Payment/input_CardNumber'
+
+13-11-2024T11:15:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'number' and @id = 'mat-input-4']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:15:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CardNumber'. Try using Self-healing.
+
+13-11-2024T11:15:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CardNumber' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[2]/div/div/div[3]/input'.
+
+13-11-2024T11:15:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'number' and @id = 'mat-input-4']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:15:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CardNumber'. Try using Self-healing.
+
+13-11-2024T11:15:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CardNumber' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[2]/div/div/div[3]/input'.
+
+13-11-2024T11:15:23 - [MESSAGE][PASSED] - Text '1230987890213450' is set on object 'Object Repository/Juice/Add Payment/input_CardNumber'
+
+13-11-2024T11:15:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Juice/Add Payment/select_Month"), CCMonth, true): All options with value '8' are selected in object 'Object Repository/Juice/Add Payment/select_Month'  using regular expression
+
+13-11-2024T11:15:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='mat-input-5']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:15:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/select_Month'. Try using Self-healing.
+
+13-11-2024T11:15:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/select_Month' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[3]/div/div/div[3]/select'.
+
+13-11-2024T11:15:32 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Juice/Add Payment/select_Month'  using regular expression
+
+13-11-2024T11:15:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Juice/Add Payment/select_Year"), CCYear, true): All options with value '2085' are selected in object 'Object Repository/Juice/Add Payment/select_Year'  using regular expression
+
+13-11-2024T11:15:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='mat-input-6']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:15:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/select_Year'. Try using Self-healing.
+
+13-11-2024T11:15:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/select_Year' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[4]/div/div/div[3]/select'.
+
+13-11-2024T11:15:41 - [MESSAGE][PASSED] - All options with value '2085' are selected in object 'Object Repository/Juice/Add Payment/select_Year'  using regular expression
+
+13-11-2024T11:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_Submit")): Object: 'Object Repository/Juice/Add Payment/Button_Submit' is clicked on
+
+13-11-2024T11:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_Submit' is clicked on
+
+13-11-2024T11:15:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Add Payment/mat-cell_TittleCCName"), CCName): Actual text and expected text of test object 'Object Repository/Juice/Add Payment/mat-cell_TittleCCName' are matched.
+
+13-11-2024T11:15:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Add Payment/mat-cell_TittleCCName' are matched.
+
+13-11-2024T11:15:42 - [MESSAGE][INFO] - 
+
+13-11-2024T11:15:42 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+13-11-2024T11:15:42 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+13-11-2024T11:15:42 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+13-11-2024T11:15:42 - [MESSAGE][INFO] - ==============================================================
+
+13-11-2024T11:15:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Add Payment' successfully
+
+13-11-2024T11:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_OWASP Juice Shop")): Object: 'Object Repository/Juice/Buying Products/button_OWASP Juice Shop' is clicked on
+
+13-11-2024T11:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_OWASP Juice Shop' is clicked on
+
+13-11-2024T11:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/Button_Add to Basket")): Object: 'Object Repository/Juice/Buying Products/Button_Add to Basket' is clicked on
+
+13-11-2024T11:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/Button_Add to Basket' is clicked on
+
+13-11-2024T11:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Add to Basket_1")): Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1' is clicked on
+
+13-11-2024T11:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1' is clicked on
+
+13-11-2024T11:15:44 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Add to Basket_1_2_3")): Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1_2_3' is clicked on
+
+13-11-2024T11:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1_2_3' is clicked on
+
+13-11-2024T11:15:46 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_cart")): Object: 'Object Repository/Juice/Buying Products/button_cart' is clicked on
+
+13-11-2024T11:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_cart' is clicked on
+
+13-11-2024T11:15:47 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Checkout")): Object: 'Object Repository/Juice/Buying Products/button_Checkout' is clicked on
+
+13-11-2024T11:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Checkout' is clicked on
+
+13-11-2024T11:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/span_RadioAddress")): Object: 'Object Repository/Juice/Buying Products/span_RadioAddress' is clicked on
+
+13-11-2024T11:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/span_RadioAddress' is clicked on
+
+13-11-2024T11:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_navigate_next Continue")): Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:15:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='OpenSea'])[1]/following::button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:15:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Buying Products/button_navigate_next Continue'. Try using Self-healing.
+
+13-11-2024T11:15:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Buying Products/button_navigate_next Continue' was broken. Propose an alternative one: '//button[(text() = ' navigate_next Continue' or . = ' navigate_next Continue')]'.
+
+13-11-2024T11:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:15:57 - [TEST_STEP][PASSED] - click(Delivery): Object: 'Object Repository/Juice/Buying Products/span_Delivery5Days' is clicked on
+
+13-11-2024T11:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/span_Delivery5Days' is clicked on
+
+13-11-2024T11:15:57 - [TEST_STEP][PASSED] - select_delivery = Delivery: null
+
+13-11-2024T11:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_navigate_next Continue")): Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:16:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='OpenSea'])[1]/following::button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:16:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Buying Products/button_navigate_next Continue'. Try using Self-healing.
+
+13-11-2024T11:16:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Buying Products/button_navigate_next Continue' was broken. Propose an alternative one: '//button[(text() = ' navigate_next Continue' or . = ' navigate_next Continue')]'.
+
+13-11-2024T11:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:16:06 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/span_RadioPayment")): Object: 'Object Repository/Juice/Buying Products/span_RadioPayment' is clicked on
+
+13-11-2024T11:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/span_RadioPayment' is clicked on
+
+13-11-2024T11:16:06 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_navigate_next Continue")): Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:16:07 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Place your order and pay")): Object: 'Object Repository/Juice/Buying Products/button_Place your order and pay' is clicked on
+
+13-11-2024T11:16:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Place your order and pay' is clicked on
+
+13-11-2024T11:16:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Buying Products/h1_Thank you for your purchase"), "Thank you for your purchase!"): Actual text and expected text of test object 'Object Repository/Juice/Buying Products/h1_Thank you for your purchase' are matched.
+
+13-11-2024T11:16:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Buying Products/h1_Thank you for your purchase' are matched.
+
+13-11-2024T11:16:09 - [TEST_STEP][PASSED] - switch (select_delivery): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Juice/TC_Buying Products" time="103.232" classname="Test Cases/TC_Juice/TC_Buying Products" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:16:09 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/TC_Buying Products: Test Cases/TC_Juice/TC_Buying Products
+
+13-11-2024T11:16:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/TC_Create Account"), ["Email":Email, "Password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/TC_Create Account' successfully
+
+13-11-2024T11:16:09 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/TC_Create Account: Test Cases/TC_Juice/TC_Create Account
+
+13-11-2024T11:16:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Browser URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Browser URL' successfully
+
+13-11-2024T11:16:09 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Browser URL: Test Cases/TC_Juice/Block/Browser URL
+
+13-11-2024T11:16:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-11-2024T11:16:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-11-2024T11:16:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-11-2024T11:16:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-11-2024T11:16:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-11-2024T11:16:10 - [TEST_STEP][PASSED] - navigateToUrl("https://juice-shop.herokuapp.com/#/"): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-11-2024T11:16:15 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+13-11-2024T11:16:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Browser URL' successfully
+
+13-11-2024T11:16:15 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button_Dismiss")): Object: 'Object Repository/Juice/Create Account/Button_Dismiss' is clicked on
+
+13-11-2024T11:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button_Dismiss' is clicked on
+
+13-11-2024T11:16:15 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button Account")): Object: 'Object Repository/Juice/Create Account/Button Account' is clicked on
+
+13-11-2024T11:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button Account' is clicked on
+
+13-11-2024T11:16:16 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button Login")): Object: 'Object Repository/Juice/Create Account/Button Login' is clicked on
+
+13-11-2024T11:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button Login' is clicked on
+
+13-11-2024T11:16:17 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/div_Not yet a customer")): Object: 'Object Repository/Juice/Create Account/div_Not yet a customer' is clicked on
+
+13-11-2024T11:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/div_Not yet a customer' is clicked on
+
+13-11-2024T11:16:17 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Create Account/input_RegisterEmail"), Email): Text 'ace4@gmail.com' is set on object 'Object Repository/Juice/Create Account/input_RegisterEmail'
+
+13-11-2024T11:16:18 - [MESSAGE][PASSED] - Text 'ace4@gmail.com' is set on object 'Object Repository/Juice/Create Account/input_RegisterEmail'
+
+13-11-2024T11:16:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Juice/Create Account/input_RegisterPassword"), Password): Text ****** has been set on object 'Object Repository/Juice/Create Account/input_RegisterPassword'
+
+13-11-2024T11:16:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Juice/Create Account/input_RegisterPassword'
+
+13-11-2024T11:16:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Juice/Create Account/input_Password must be 5-40 characters long_eeca64"), Password): Text ****** has been set on object 'Object Repository/Juice/Create Account/input_Password must be 5-40 characters long_eeca64'
+
+13-11-2024T11:16:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Juice/Create Account/input_Password must be 5-40 characters long_eeca64'
+
+13-11-2024T11:16:18 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/span_SecurityDropdown")): Object: 'Object Repository/Juice/Create Account/span_SecurityDropdown' is clicked on
+
+13-11-2024T11:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/span_SecurityDropdown' is clicked on
+
+13-11-2024T11:16:19 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/span_Your eldest siblings middle name"), STOP_ON_FAILURE): Object: 'Object Repository/Juice/Create Account/span_Your eldest siblings middle name' is clicked on
+
+13-11-2024T11:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/span_Your eldest siblings middle name' is clicked on
+
+13-11-2024T11:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Create Account/input_SecurityAnswer"), "tole"): Text 'tole' is set on object 'Object Repository/Juice/Create Account/input_SecurityAnswer'
+
+13-11-2024T11:16:20 - [MESSAGE][PASSED] - Text 'tole' is set on object 'Object Repository/Juice/Create Account/input_SecurityAnswer'
+
+13-11-2024T11:16:20 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Create Account/Button_Register")): Object: 'Object Repository/Juice/Create Account/Button_Register' is clicked on
+
+13-11-2024T11:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Create Account/Button_Register' is clicked on
+
+13-11-2024T11:16:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Create Account/h1_Login"), "Login"): Actual text and expected text of test object 'Object Repository/Juice/Create Account/h1_Login' are matched.
+
+13-11-2024T11:16:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Create Account/h1_Login' are matched.
+
+13-11-2024T11:16:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/TC_Create Account' successfully
+
+13-11-2024T11:16:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Login"), ["Email":Email, "Password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Login' successfully
+
+13-11-2024T11:16:21 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Login: Test Cases/TC_Juice/Block/Login
+
+13-11-2024T11:16:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/span_Account")): Object: 'Object Repository/Juice/Login/span_Account' is clicked on
+
+13-11-2024T11:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/span_Account' is clicked on
+
+13-11-2024T11:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/button_exit_to_app  Login")): Object: 'Object Repository/Juice/Login/button_exit_to_app  Login' is clicked on
+
+13-11-2024T11:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/button_exit_to_app  Login' is clicked on
+
+13-11-2024T11:16:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Juice/Login/input_Login_email"), Email): Text 'ace4@gmail.com' is set on object 'Object Repository/Juice/Login/input_Login_email'
+
+13-11-2024T11:16:23 - [MESSAGE][PASSED] - Text 'ace4@gmail.com' is set on object 'Object Repository/Juice/Login/input_Login_email'
+
+13-11-2024T11:16:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Juice/Login/input_Email_password"), Password): Text ****** has been set on object 'Object Repository/Juice/Login/input_Email_password'
+
+13-11-2024T11:16:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Juice/Login/input_Email_password'
+
+13-11-2024T11:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/button_exit_to_app  Log in")): Object: 'Object Repository/Juice/Login/button_exit_to_app  Log in' is clicked on
+
+13-11-2024T11:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/button_exit_to_app  Log in' is clicked on
+
+13-11-2024T11:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Juice/Login/button_account_circle  Account")): Object: 'Object Repository/Juice/Login/button_account_circle  Account' is clicked on
+
+13-11-2024T11:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Login/button_account_circle  Account' is clicked on
+
+13-11-2024T11:16:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Juice/Login/span_testgmail.com"), Email): Actual text and expected text of test object 'Object Repository/Juice/Login/span_testgmail.com' are matched.
+
+13-11-2024T11:16:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Login/span_testgmail.com' are matched.
+
+13-11-2024T11:16:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Login' successfully
+
+13-11-2024T11:16:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Add Address"), ["Country":Country, "Name":Name, "MNumber":MNumber, "ZCode":ZCode, "Address":Address, "State":State, "City":City], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Add Address' successfully
+
+13-11-2024T11:16:25 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Add Address: Test Cases/TC_Juice/Block/Add Address
+
+13-11-2024T11:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/Button_OrdersPayment")): Object: 'Object Repository/Juice/Add Address/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:16:25 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/Button_MySavedAddress")): Object: 'Object Repository/Juice/Add Address/Button_MySavedAddress' is clicked on
+
+13-11-2024T11:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/Button_MySavedAddress' is clicked on
+
+13-11-2024T11:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/Button_AddNewAddress")): Object: 'Object Repository/Juice/Add Address/Button_AddNewAddress' is clicked on
+
+13-11-2024T11:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/Button_AddNewAddress' is clicked on
+
+13-11-2024T11:16:26 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_Country"), Country): Text 'Country3' is set on object 'Object Repository/Juice/Add Address/input_Country'
+
+13-11-2024T11:16:27 - [MESSAGE][PASSED] - Text 'Country3' is set on object 'Object Repository/Juice/Add Address/input_Country'
+
+13-11-2024T11:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_Name"), Name): Text 'Nama3' is set on object 'Object Repository/Juice/Add Address/input_Name'
+
+13-11-2024T11:16:27 - [MESSAGE][PASSED] - Text 'Nama3' is set on object 'Object Repository/Juice/Add Address/input_Name'
+
+13-11-2024T11:16:27 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_MobileNumber"), MNumber): Text '10283914' is set on object 'Object Repository/Juice/Add Address/input_MobileNumber'
+
+13-11-2024T11:16:28 - [MESSAGE][PASSED] - Text '10283914' is set on object 'Object Repository/Juice/Add Address/input_MobileNumber'
+
+13-11-2024T11:16:28 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_ZipCode"), ZCode): Text '12311' is set on object 'Object Repository/Juice/Add Address/input_ZipCode'
+
+13-11-2024T11:16:28 - [MESSAGE][PASSED] - Text '12311' is set on object 'Object Repository/Juice/Add Address/input_ZipCode'
+
+13-11-2024T11:16:28 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/textarea_Address"), Address): Text 'Address3' is set on object 'Object Repository/Juice/Add Address/textarea_Address'
+
+13-11-2024T11:16:29 - [MESSAGE][PASSED] - Text 'Address3' is set on object 'Object Repository/Juice/Add Address/textarea_Address'
+
+13-11-2024T11:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_City"), City): Text 'City3' is set on object 'Object Repository/Juice/Add Address/input_City'
+
+13-11-2024T11:16:29 - [MESSAGE][PASSED] - Text 'City3' is set on object 'Object Repository/Juice/Add Address/input_City'
+
+13-11-2024T11:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Address/input_State"), State): Text 'State3' is set on object 'Object Repository/Juice/Add Address/input_State'
+
+13-11-2024T11:16:30 - [MESSAGE][PASSED] - Text 'State3' is set on object 'Object Repository/Juice/Add Address/input_State'
+
+13-11-2024T11:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Address/button_send  Submit")): Object: 'Object Repository/Juice/Add Address/button_send  Submit' is clicked on
+
+13-11-2024T11:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Address/button_send  Submit' is clicked on
+
+13-11-2024T11:16:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Add Address/mat-TitleName"), Name): Actual text and expected text of test object 'Object Repository/Juice/Add Address/mat-TitleName' are matched.
+
+13-11-2024T11:16:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Add Address/mat-TitleName' are matched.
+
+13-11-2024T11:16:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Add Address' successfully
+
+13-11-2024T11:16:31 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_Account")): Object: 'Object Repository/Juice/Add Payment/Button_Account' is clicked on
+
+13-11-2024T11:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_Account' is clicked on
+
+13-11-2024T11:16:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Juice/Block/Add Payment"), ["CCName":CCName, "CCNumber":CCNumber, "CCMonth":CCMounth, "CCYear":CCYear], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_Juice/Block/Add Payment' successfully
+
+13-11-2024T11:16:31 - [TEST_CASE][PASSED] - Test Cases/TC_Juice/Block/Add Payment: Test Cases/TC_Juice/Block/Add Payment
+
+13-11-2024T11:16:31 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_OrdersPayment")): Object: 'Object Repository/Juice/Add Payment/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_OrdersPayment' is clicked on
+
+13-11-2024T11:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_My Payment Options")): Object: 'Object Repository/Juice/Add Payment/Button_My Payment Options' is clicked on
+
+13-11-2024T11:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_My Payment Options' is clicked on
+
+13-11-2024T11:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/mat-panel-title_Add new card")): Object: 'Object Repository/Juice/Add Payment/mat-panel-title_Add new card' is clicked on
+
+13-11-2024T11:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/mat-panel-title_Add new card' is clicked on
+
+13-11-2024T11:16:33 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Payment/input_CCName"), CCName): Text 'Test3' is set on object 'Object Repository/Juice/Add Payment/input_CCName'
+
+13-11-2024T11:16:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("mat-input-3")[count(. | //*[@id = 'mat-input-3']) = count(//*[@id = 'mat-input-3'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:16:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CCName'. Try using Self-healing.
+
+13-11-2024T11:16:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CCName' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]/input'.
+
+13-11-2024T11:16:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("mat-input-3")[count(. | //*[@id = 'mat-input-3']) = count(//*[@id = 'mat-input-3'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:16:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CCName'. Try using Self-healing.
+
+13-11-2024T11:16:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CCName' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]/input'.
+
+13-11-2024T11:16:49 - [MESSAGE][PASSED] - Text 'Test3' is set on object 'Object Repository/Juice/Add Payment/input_CCName'
+
+13-11-2024T11:16:49 - [TEST_STEP][PASSED] - setText(findTestObject("Juice/Add Payment/input_CardNumber"), CCNumber): Text '1230987890213450' is set on object 'Object Repository/Juice/Add Payment/input_CardNumber'
+
+13-11-2024T11:16:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'number' and @id = 'mat-input-4']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:16:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CardNumber'. Try using Self-healing.
+
+13-11-2024T11:16:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CardNumber' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[2]/div/div/div[3]/input'.
+
+13-11-2024T11:17:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'number' and @id = 'mat-input-4']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:17:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/input_CardNumber'. Try using Self-healing.
+
+13-11-2024T11:17:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/input_CardNumber' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[2]/div/div/div[3]/input'.
+
+13-11-2024T11:17:06 - [MESSAGE][PASSED] - Text '1230987890213450' is set on object 'Object Repository/Juice/Add Payment/input_CardNumber'
+
+13-11-2024T11:17:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Juice/Add Payment/select_Month"), CCMonth, true): All options with value '9' are selected in object 'Object Repository/Juice/Add Payment/select_Month'  using regular expression
+
+13-11-2024T11:17:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='mat-input-5']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:17:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/select_Month'. Try using Self-healing.
+
+13-11-2024T11:17:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/select_Month' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[3]/div/div/div[3]/select'.
+
+13-11-2024T11:17:15 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/Juice/Add Payment/select_Month'  using regular expression
+
+13-11-2024T11:17:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Juice/Add Payment/select_Year"), CCYear, true): All options with value '2086' are selected in object 'Object Repository/Juice/Add Payment/select_Year'  using regular expression
+
+13-11-2024T11:17:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='mat-input-6']'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:17:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Add Payment/select_Year'. Try using Self-healing.
+
+13-11-2024T11:17:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Add Payment/select_Year' was broken. Propose an alternative one: '//div[@id='cdk-accordion-child-0']/div/div/mat-form-field[4]/div/div/div[3]/select'.
+
+13-11-2024T11:17:24 - [MESSAGE][PASSED] - All options with value '2086' are selected in object 'Object Repository/Juice/Add Payment/select_Year'  using regular expression
+
+13-11-2024T11:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Add Payment/Button_Submit")): Object: 'Object Repository/Juice/Add Payment/Button_Submit' is clicked on
+
+13-11-2024T11:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Add Payment/Button_Submit' is clicked on
+
+13-11-2024T11:17:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Add Payment/mat-cell_TittleCCName"), CCName): Actual text and expected text of test object 'Object Repository/Juice/Add Payment/mat-cell_TittleCCName' are matched.
+
+13-11-2024T11:17:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Add Payment/mat-cell_TittleCCName' are matched.
+
+13-11-2024T11:17:25 - [MESSAGE][INFO] - 
+
+13-11-2024T11:17:25 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+13-11-2024T11:17:25 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+13-11-2024T11:17:25 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+13-11-2024T11:17:25 - [MESSAGE][INFO] - ==============================================================
+
+13-11-2024T11:17:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Juice/Block/Add Payment' successfully
+
+13-11-2024T11:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_OWASP Juice Shop")): Object: 'Object Repository/Juice/Buying Products/button_OWASP Juice Shop' is clicked on
+
+13-11-2024T11:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_OWASP Juice Shop' is clicked on
+
+13-11-2024T11:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/Button_Add to Basket")): Object: 'Object Repository/Juice/Buying Products/Button_Add to Basket' is clicked on
+
+13-11-2024T11:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/Button_Add to Basket' is clicked on
+
+13-11-2024T11:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Add to Basket_1")): Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1' is clicked on
+
+13-11-2024T11:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1' is clicked on
+
+13-11-2024T11:17:28 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Add to Basket_1_2_3")): Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1_2_3' is clicked on
+
+13-11-2024T11:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Add to Basket_1_2_3' is clicked on
+
+13-11-2024T11:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_cart")): Object: 'Object Repository/Juice/Buying Products/button_cart' is clicked on
+
+13-11-2024T11:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_cart' is clicked on
+
+13-11-2024T11:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Checkout")): Object: 'Object Repository/Juice/Buying Products/button_Checkout' is clicked on
+
+13-11-2024T11:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Checkout' is clicked on
+
+13-11-2024T11:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/span_RadioAddress")): Object: 'Object Repository/Juice/Buying Products/span_RadioAddress' is clicked on
+
+13-11-2024T11:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/span_RadioAddress' is clicked on
+
+13-11-2024T11:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_navigate_next Continue")): Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:17:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='OpenSea'])[1]/following::button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:17:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Buying Products/button_navigate_next Continue'. Try using Self-healing.
+
+13-11-2024T11:17:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Buying Products/button_navigate_next Continue' was broken. Propose an alternative one: '//button[(text() = ' navigate_next Continue' or . = ' navigate_next Continue')]'.
+
+13-11-2024T11:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:17:40 - [TEST_STEP][PASSED] - click(Delivery): Object: 'Object Repository/Juice/Buying Products/span_Delivery5Days' is clicked on
+
+13-11-2024T11:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/span_Delivery5Days' is clicked on
+
+13-11-2024T11:17:40 - [TEST_STEP][PASSED] - select_delivery = Delivery: null
+
+13-11-2024T11:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_navigate_next Continue")): Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:17:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='OpenSea'])[1]/following::button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-11-2024T11:17:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Juice/Buying Products/button_navigate_next Continue'. Try using Self-healing.
+
+13-11-2024T11:17:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Juice/Buying Products/button_navigate_next Continue' was broken. Propose an alternative one: '//button[(text() = ' navigate_next Continue' or . = ' navigate_next Continue')]'.
+
+13-11-2024T11:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/span_RadioPayment")): Object: 'Object Repository/Juice/Buying Products/span_RadioPayment' is clicked on
+
+13-11-2024T11:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/span_RadioPayment' is clicked on
+
+13-11-2024T11:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_navigate_next Continue")): Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_navigate_next Continue' is clicked on
+
+13-11-2024T11:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Juice/Buying Products/button_Place your order and pay")): Object: 'Object Repository/Juice/Buying Products/button_Place your order and pay' is clicked on
+
+13-11-2024T11:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Juice/Buying Products/button_Place your order and pay' is clicked on
+
+13-11-2024T11:17:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Juice/Buying Products/h1_Thank you for your purchase"), "Thank you for your purchase!"): Actual text and expected text of test object 'Object Repository/Juice/Buying Products/h1_Thank you for your purchase' are matched.
+
+13-11-2024T11:17:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Juice/Buying Products/h1_Thank you for your purchase' are matched.
+
+13-11-2024T11:17:52 - [TEST_STEP][PASSED] - switch (select_delivery): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-11-2024T11:12:40 - [TEST_SUITE][PASSED] - TS_Buying Product: Test Cases/TC_Juice/TC_Buying Products]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

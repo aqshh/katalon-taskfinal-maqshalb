@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Buying Product,Chrome 130.0.0.0,,,13-11-2024 11:12:40,13-11-2024 11:17:52,5m - 12.133s,PASSED
+,,,,,,,
+Test Cases/TC_Juice/TC_Buying Products,Chrome 130.0.0.0,,,13-11-2024 11:12:40,13-11-2024 11:14:26,1m - 45.613s,PASSED
+"callTestCase(findTestCase(""TC_Juice/TC_Create Account""), [""Email"":Email, ""Password"":Password], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:12:40,13-11-2024 11:12:54,13.318s,PASSED
+"callTestCase(findTestCase(""TC_Juice/Block/Login""), [""Email"":Email, ""Password"":Password], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:12:54,13-11-2024 11:12:57,3.669s,PASSED
+"callTestCase(findTestCase(""TC_Juice/Block/Add Address""), [""Country"":Country, ""Name"":Name, ""MNumber"":MNumber, ""ZCode"":ZCode, ""Address"":Address, ""State"":State, ""City"":City], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:12:57,13-11-2024 11:13:04,6.337s,PASSED
+"click(findTestObject(""Juice/Add Payment/Button_Account""))",Chrome 130.0.0.0,,,13-11-2024 11:13:04,13-11-2024 11:13:04,0.248s,PASSED
+"callTestCase(findTestCase(""TC_Juice/Block/Add Payment""), [""CCName"":CCName, ""CCNumber"":CCNumber, ""CCMonth"":CCMounth, ""CCYear"":CCYear], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:13:04,13-11-2024 11:13:58,53.971s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_OWASP Juice Shop""))",Chrome 130.0.0.0,,,13-11-2024 11:13:58,13-11-2024 11:13:58,0.257s,PASSED
+"click(findTestObject(""Juice/Buying Products/Button_Add to Basket""))",Chrome 130.0.0.0,,,13-11-2024 11:13:58,13-11-2024 11:13:59,1.014s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Add to Basket_1""))",Chrome 130.0.0.0,,,13-11-2024 11:13:59,13-11-2024 11:14:01,1.419s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Add to Basket_1_2_3""))",Chrome 130.0.0.0,,,13-11-2024 11:14:01,13-11-2024 11:14:02,1.426s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_cart""))",Chrome 130.0.0.0,,,13-11-2024 11:14:02,13-11-2024 11:14:04,1.423s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Checkout""))",Chrome 130.0.0.0,,,13-11-2024 11:14:04,13-11-2024 11:14:04,0.762s,PASSED
+"click(findTestObject(""Juice/Buying Products/span_RadioAddress""))",Chrome 130.0.0.0,,,13-11-2024 11:14:04,13-11-2024 11:14:05,0.771s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_navigate_next Continue""))",Chrome 130.0.0.0,,,13-11-2024 11:14:05,13-11-2024 11:14:13,8.305s,PASSED
+click(Delivery),Chrome 130.0.0.0,,,13-11-2024 11:14:13,13-11-2024 11:14:14,0.663s,PASSED
+select_delivery = Delivery,Chrome 130.0.0.0,,,13-11-2024 11:14:14,13-11-2024 11:14:14,0.000s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_navigate_next Continue""))",Chrome 130.0.0.0,,,13-11-2024 11:14:14,13-11-2024 11:14:22,8.464s,PASSED
+"click(findTestObject(""Juice/Buying Products/span_RadioPayment""))",Chrome 130.0.0.0,,,13-11-2024 11:14:22,13-11-2024 11:14:23,0.970s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_navigate_next Continue""))",Chrome 130.0.0.0,,,13-11-2024 11:14:23,13-11-2024 11:14:24,0.451s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Place your order and pay""))",Chrome 130.0.0.0,,,13-11-2024 11:14:24,13-11-2024 11:14:25,0.676s,PASSED
+"verifyElementText(findTestObject(""Juice/Buying Products/h1_Thank you for your purchase""), ""Thank you for your purchase!"")",Chrome 130.0.0.0,,,13-11-2024 11:14:25,13-11-2024 11:14:26,1.183s,PASSED
+switch (select_delivery),Chrome 130.0.0.0,,,13-11-2024 11:14:26,13-11-2024 11:14:26,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Juice/TC_Buying Products,Chrome 130.0.0.0,,,13-11-2024 11:14:26,13-11-2024 11:16:09,1m - 42.993s,PASSED
+"callTestCase(findTestCase(""TC_Juice/TC_Create Account""), [""Email"":Email, ""Password"":Password], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:14:26,13-11-2024 11:14:38,12.047s,PASSED
+"callTestCase(findTestCase(""TC_Juice/Block/Login""), [""Email"":Email, ""Password"":Password], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:14:38,13-11-2024 11:14:41,3.529s,PASSED
+"callTestCase(findTestCase(""TC_Juice/Block/Add Address""), [""Country"":Country, ""Name"":Name, ""MNumber"":MNumber, ""ZCode"":ZCode, ""Address"":Address, ""State"":State, ""City"":City], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:14:41,13-11-2024 11:14:47,6.093s,PASSED
+"click(findTestObject(""Juice/Add Payment/Button_Account""))",Chrome 130.0.0.0,,,13-11-2024 11:14:47,13-11-2024 11:14:48,0.244s,PASSED
+"callTestCase(findTestCase(""TC_Juice/Block/Add Payment""), [""CCName"":CCName, ""CCNumber"":CCNumber, ""CCMonth"":CCMounth, ""CCYear"":CCYear], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:14:48,13-11-2024 11:15:42,53.994s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_OWASP Juice Shop""))",Chrome 130.0.0.0,,,13-11-2024 11:15:42,13-11-2024 11:15:42,0.250s,PASSED
+"click(findTestObject(""Juice/Buying Products/Button_Add to Basket""))",Chrome 130.0.0.0,,,13-11-2024 11:15:42,13-11-2024 11:15:43,0.894s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Add to Basket_1""))",Chrome 130.0.0.0,,,13-11-2024 11:15:43,13-11-2024 11:15:44,1.415s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Add to Basket_1_2_3""))",Chrome 130.0.0.0,,,13-11-2024 11:15:44,13-11-2024 11:15:46,1.416s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_cart""))",Chrome 130.0.0.0,,,13-11-2024 11:15:46,13-11-2024 11:15:47,1.118s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Checkout""))",Chrome 130.0.0.0,,,13-11-2024 11:15:47,13-11-2024 11:15:48,0.760s,PASSED
+"click(findTestObject(""Juice/Buying Products/span_RadioAddress""))",Chrome 130.0.0.0,,,13-11-2024 11:15:48,13-11-2024 11:15:48,0.662s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_navigate_next Continue""))",Chrome 130.0.0.0,,,13-11-2024 11:15:48,13-11-2024 11:15:57,8.348s,PASSED
+click(Delivery),Chrome 130.0.0.0,,,13-11-2024 11:15:57,13-11-2024 11:15:57,0.659s,PASSED
+select_delivery = Delivery,Chrome 130.0.0.0,,,13-11-2024 11:15:57,13-11-2024 11:15:57,0.000s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_navigate_next Continue""))",Chrome 130.0.0.0,,,13-11-2024 11:15:57,13-11-2024 11:16:06,8.363s,PASSED
+"click(findTestObject(""Juice/Buying Products/span_RadioPayment""))",Chrome 130.0.0.0,,,13-11-2024 11:16:06,13-11-2024 11:16:06,0.878s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_navigate_next Continue""))",Chrome 130.0.0.0,,,13-11-2024 11:16:06,13-11-2024 11:16:07,0.455s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Place your order and pay""))",Chrome 130.0.0.0,,,13-11-2024 11:16:07,13-11-2024 11:16:08,0.672s,PASSED
+"verifyElementText(findTestObject(""Juice/Buying Products/h1_Thank you for your purchase""), ""Thank you for your purchase!"")",Chrome 130.0.0.0,,,13-11-2024 11:16:08,13-11-2024 11:16:09,1.185s,PASSED
+switch (select_delivery),Chrome 130.0.0.0,,,13-11-2024 11:16:09,13-11-2024 11:16:09,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Juice/TC_Buying Products,Chrome 130.0.0.0,,,13-11-2024 11:16:09,13-11-2024 11:17:52,1m - 43.232s,PASSED
+"callTestCase(findTestCase(""TC_Juice/TC_Create Account""), [""Email"":Email, ""Password"":Password], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:16:09,13-11-2024 11:16:21,12.462s,PASSED
+"callTestCase(findTestCase(""TC_Juice/Block/Login""), [""Email"":Email, ""Password"":Password], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:16:21,13-11-2024 11:16:25,3.531s,PASSED
+"callTestCase(findTestCase(""TC_Juice/Block/Add Address""), [""Country"":Country, ""Name"":Name, ""MNumber"":MNumber, ""ZCode"":ZCode, ""Address"":Address, ""State"":State, ""City"":City], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:16:25,13-11-2024 11:16:31,6.084s,PASSED
+"click(findTestObject(""Juice/Add Payment/Button_Account""))",Chrome 130.0.0.0,,,13-11-2024 11:16:31,13-11-2024 11:16:31,0.245s,PASSED
+"callTestCase(findTestCase(""TC_Juice/Block/Add Payment""), [""CCName"":CCName, ""CCNumber"":CCNumber, ""CCMonth"":CCMounth, ""CCYear"":CCYear], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,13-11-2024 11:16:31,13-11-2024 11:17:25,54.079s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_OWASP Juice Shop""))",Chrome 130.0.0.0,,,13-11-2024 11:17:25,13-11-2024 11:17:26,0.260s,PASSED
+"click(findTestObject(""Juice/Buying Products/Button_Add to Basket""))",Chrome 130.0.0.0,,,13-11-2024 11:17:26,13-11-2024 11:17:26,0.893s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Add to Basket_1""))",Chrome 130.0.0.0,,,13-11-2024 11:17:26,13-11-2024 11:17:28,1.302s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Add to Basket_1_2_3""))",Chrome 130.0.0.0,,,13-11-2024 11:17:28,13-11-2024 11:17:29,1.296s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_cart""))",Chrome 130.0.0.0,,,13-11-2024 11:17:29,13-11-2024 11:17:30,1.104s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Checkout""))",Chrome 130.0.0.0,,,13-11-2024 11:17:30,13-11-2024 11:17:31,0.651s,PASSED
+"click(findTestObject(""Juice/Buying Products/span_RadioAddress""))",Chrome 130.0.0.0,,,13-11-2024 11:17:31,13-11-2024 11:17:31,0.662s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_navigate_next Continue""))",Chrome 130.0.0.0,,,13-11-2024 11:17:31,13-11-2024 11:17:40,8.389s,PASSED
+click(Delivery),Chrome 130.0.0.0,,,13-11-2024 11:17:40,13-11-2024 11:17:40,0.655s,PASSED
+select_delivery = Delivery,Chrome 130.0.0.0,,,13-11-2024 11:17:40,13-11-2024 11:17:40,0.000s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_navigate_next Continue""))",Chrome 130.0.0.0,,,13-11-2024 11:17:40,13-11-2024 11:17:49,8.398s,PASSED
+"click(findTestObject(""Juice/Buying Products/span_RadioPayment""))",Chrome 130.0.0.0,,,13-11-2024 11:17:49,13-11-2024 11:17:50,0.886s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_navigate_next Continue""))",Chrome 130.0.0.0,,,13-11-2024 11:17:50,13-11-2024 11:17:50,0.446s,PASSED
+"click(findTestObject(""Juice/Buying Products/button_Place your order and pay""))",Chrome 130.0.0.0,,,13-11-2024 11:17:50,13-11-2024 11:17:51,0.685s,PASSED
+"verifyElementText(findTestObject(""Juice/Buying Products/h1_Thank you for your purchase""), ""Thank you for your purchase!"")",Chrome 130.0.0.0,,,13-11-2024 11:17:51,13-11-2024 11:17:52,1.196s,PASSED
+switch (select_delivery),Chrome 130.0.0.0,,,13-11-2024 11:17:52,13-11-2024 11:17:52,0.000s,PASSED

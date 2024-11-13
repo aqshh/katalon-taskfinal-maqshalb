@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Delete Task,,,,11-11-2024 19:05:07,11-11-2024 19:08:52,3m - 45.283s,PASSED
+,,,,,,,
+Test Cases/TC_Delete Task,,,,11-11-2024 19:05:07,11-11-2024 19:06:04,56.234s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 19:05:07,11-11-2024 19:06:00,52.412s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption""), 0)",,,,11-11-2024 19:06:00,11-11-2024 19:06:00,0.166s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete""), 0)",,,,11-11-2024 19:06:00,11-11-2024 19:06:02,1.679s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE""), 0)",,,,11-11-2024 19:06:02,11-11-2024 19:06:02,0.171s,PASSED
+closeApplication(),,,,11-11-2024 19:06:02,11-11-2024 19:06:04,1.705s,PASSED
+,,,,,,,
+Test Cases/TC_Delete Task,,,,11-11-2024 19:06:04,11-11-2024 19:07:01,57.250s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 19:06:04,11-11-2024 19:06:57,53.324s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption""), 0)",,,,11-11-2024 19:06:57,11-11-2024 19:06:57,0.168s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete""), 0)",,,,11-11-2024 19:06:57,11-11-2024 19:06:59,1.792s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE""), 0)",,,,11-11-2024 19:06:59,11-11-2024 19:06:59,0.157s,PASSED
+closeApplication(),,,,11-11-2024 19:06:59,11-11-2024 19:07:01,1.804s,PASSED
+,,,,,,,
+Test Cases/TC_Delete Task,,,,11-11-2024 19:07:01,11-11-2024 19:07:58,57.298s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 19:07:01,11-11-2024 19:07:54,52.870s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption""), 0)",,,,11-11-2024 19:07:54,11-11-2024 19:07:54,0.167s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete""), 0)",,,,11-11-2024 19:07:54,11-11-2024 19:07:56,2.126s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE""), 0)",,,,11-11-2024 19:07:56,11-11-2024 19:07:56,0.157s,PASSED
+closeApplication(),,,,11-11-2024 19:07:56,11-11-2024 19:07:58,1.973s,PASSED
+,,,,,,,
+Test Cases/TC_Delete Task,,,,11-11-2024 19:07:58,11-11-2024 19:08:52,54.301s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 19:07:58,11-11-2024 19:08:49,50.453s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption""), 0)",,,,11-11-2024 19:08:49,11-11-2024 19:08:49,0.173s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete""), 0)",,,,11-11-2024 19:08:49,11-11-2024 19:08:50,1.559s,PASSED
+"tap(findTestObject(""TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE""), 0)",,,,11-11-2024 19:08:50,11-11-2024 19:08:51,0.162s,PASSED
+closeApplication(),,,,11-11-2024 19:08:51,11-11-2024 19:08:52,1.951s,PASSED

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_E2E,,,,13-11-2024 11:45:36,13-11-2024 11:45:42,6.624s,PASSED
+,,,,,,,
+Test Cases/TC Booking/TC_Get by ID/TC_Get ID,,,,13-11-2024 11:45:36,13-11-2024 11:45:38,2.211s,PASSED
+"Response = sendRequest(findTestObject(""Booking/GET Booking ID""))",,,,13-11-2024 11:45:36,13-11-2024 11:45:38,2.126s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,13-11-2024 11:45:38,13-11-2024 11:45:38,0.011s,PASSED
+,,,,,,,
+"Test Cases/TC Booking/TC_Token, PostBooking, UpdateBooking, DeleteBooking",,,,13-11-2024 11:45:38,13-11-2024 11:45:42,4.290s,PASSED
+"response = sendRequest(findTestObject(""Booking/POST Token""))",,,,13-11-2024 11:45:38,13-11-2024 11:45:38,0.273s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,13-11-2024 11:45:38,13-11-2024 11:45:38,0.002s,PASSED
+"tokenan = getElementPropertyValue(response, ""token"")",,,,13-11-2024 11:45:38,13-11-2024 11:45:38,0.027s,PASSED
+myToken = tokenan,,,,13-11-2024 11:45:38,13-11-2024 11:45:38,0.000s,PASSED
+delay(1),,,,13-11-2024 11:45:38,13-11-2024 11:45:39,1.014s,PASSED
+"response2 = sendRequest(findTestObject(""Booking/POST Booking""))",,,,13-11-2024 11:45:39,13-11-2024 11:45:40,0.297s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,13-11-2024 11:45:40,13-11-2024 11:45:40,0.002s,PASSED
+"verifyElementPropertyValue(response2, ""booking.additionalneeds"", ""Race"")",,,,13-11-2024 11:45:40,13-11-2024 11:45:40,0.016s,PASSED
+"idan = getElementPropertyValue(response2, ""bookingid"")",,,,13-11-2024 11:45:40,13-11-2024 11:45:40,0.009s,PASSED
+myID = idan,,,,13-11-2024 11:45:40,13-11-2024 11:45:40,0.001s,PASSED
+delay(1),,,,13-11-2024 11:45:40,13-11-2024 11:45:41,1.011s,PASSED
+"response3 = sendRequest(findTestObject(""Booking/PUT Update Booking""))",,,,13-11-2024 11:45:41,13-11-2024 11:45:41,0.270s,PASSED
+"verifyResponseStatusCode(response3, 200)",,,,13-11-2024 11:45:41,13-11-2024 11:45:41,0.001s,PASSED
+"verifyElementPropertyValue(response3, ""totalprice"", ""2600"")",,,,13-11-2024 11:45:41,13-11-2024 11:45:41,0.011s,PASSED
+delay(1),,,,13-11-2024 11:45:41,13-11-2024 11:45:42,1.005s,PASSED
+"response4 = sendRequest(findTestObject(""Booking/DELETE Booking""))",,,,13-11-2024 11:45:42,13-11-2024 11:45:42,0.275s,PASSED
+"verifyResponseStatusCode(response4, 201)",,,,13-11-2024 11:45:42,13-11-2024 11:45:42,0.001s,PASSED

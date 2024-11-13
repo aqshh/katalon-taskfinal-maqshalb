@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Task</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9f6ce2c-4c1b-4f97-88ec-735918d0fb8c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bd4ed95-c144-4cf7-8bac-77349438f9ee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbf85d93-9edf-42b4-85b9-117cb38e2aaa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd064e62-734c-4408-9487-5b56d1d158a7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc096038-0060-44ac-a91c-074d97c2a4e8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'TAK Katalon 8'</defaultValue>
+      <description></description>
+      <id>9bd4ed95-c144-4cf7-8bac-77349438f9ee</id>
+      <masked>false</masked>
+      <name>TaskTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mobile Automation'</defaultValue>
+      <description></description>
+      <id>dbf85d93-9edf-42b4-85b9-117cb38e2aaa</id>
+      <masked>false</masked>
+      <name>Task</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>fd064e62-734c-4408-9487-5b56d1d158a7</id>
+      <masked>false</masked>
+      <name>TimeHours</name>
+   </variable>
+   <variable>
+      <defaultValue>'22'</defaultValue>
+      <description></description>
+      <id>fc096038-0060-44ac-a91c-074d97c2a4e8</id>
+      <masked>false</masked>
+      <name>TimeMinutes</name>
+   </variable>
+</TestCaseEntity>

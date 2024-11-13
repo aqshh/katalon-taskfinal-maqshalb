@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC All" time="35.329" tests="7" failures="0" errors="0">
+   <testsuite name="TS_E2E" tests="2" failures="0" errors="0" time="6.624" skipped="0" timestamp="13-11-2024T11:45:36" hostname="aq - DESKTOP-4SVMIJA" id="Test Suites/Booking/TS_E2E">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\aq\\Katalon Studio\\TAK_Akhir\\Reports\\20241113_114526\\Booking\\TS_E2E\\20241113_114527"/>
+         <property name="logFiles" value="C:\\Users\\aq\\Katalon Studio\\TAK_Akhir\\Reports\\20241113_114526\\Booking\\TS_E2E\\20241113_114527\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aq - DESKTOP-4SVMIJA"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+      </properties>
+      <testcase name="Test Cases/TC Booking/TC_Get by ID/TC_Get ID" time="2.211" classname="Test Cases/TC Booking/TC_Get by ID/TC_Get ID" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:45:36 - [TEST_CASE][PASSED] - Test Cases/TC Booking/TC_Get by ID/TC_Get ID: Test Cases/TC Booking/TC_Get by ID/TC_Get ID
+
+13-11-2024T11:45:36 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Booking/GET Booking ID")): Send request successfully
+
+13-11-2024T11:45:38 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_E2E\20241113_114527\requests\main\0.har
+
+13-11-2024T11:45:38 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+13-11-2024T11:45:38 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Booking/TC_Token, PostBooking, UpdateBooking, DeleteBooking" time="4.29" classname="Test Cases/TC Booking/TC_Token, PostBooking, UpdateBooking, DeleteBooking" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:45:38 - [TEST_CASE][PASSED] - Test Cases/TC Booking/TC_Token, PostBooking, UpdateBooking, DeleteBooking: Test Cases/TC Booking/TC_Token, PostBooking, UpdateBooking, DeleteBooking
+
+13-11-2024T11:45:38 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/POST Token")): Send request successfully
+
+13-11-2024T11:45:38 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_E2E\20241113_114527\requests\main\1.har
+
+13-11-2024T11:45:38 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+13-11-2024T11:45:38 - [MESSAGE][PASSED] - Verify response status code successfully
+
+13-11-2024T11:45:38 - [TEST_STEP][PASSED] - tokenan = getElementPropertyValue(response, "token"): null
+
+13-11-2024T11:45:38 - [TEST_STEP][PASSED] - myToken = tokenan: null
+
+13-11-2024T11:45:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-11-2024T11:45:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-11-2024T11:45:39 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("Booking/POST Booking")): Send request successfully
+
+13-11-2024T11:45:40 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_E2E\20241113_114527\requests\main\2.har
+
+13-11-2024T11:45:40 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+13-11-2024T11:45:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+13-11-2024T11:45:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response2, "booking.additionalneeds", "Race"): Verify element property value successfully
+
+13-11-2024T11:45:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-11-2024T11:45:40 - [TEST_STEP][PASSED] - idan = getElementPropertyValue(response2, "bookingid"): null
+
+13-11-2024T11:45:40 - [TEST_STEP][PASSED] - myID = idan: null
+
+13-11-2024T11:45:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-11-2024T11:45:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-11-2024T11:45:41 - [TEST_STEP][PASSED] - response3 = sendRequest(findTestObject("Booking/PUT Update Booking")): Send request successfully
+
+13-11-2024T11:45:41 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_E2E\20241113_114527\requests\main\3.har
+
+13-11-2024T11:45:41 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response3, 200): Verify response status code successfully
+
+13-11-2024T11:45:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+13-11-2024T11:45:41 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response3, "totalprice", "2600"): Verify element property value successfully
+
+13-11-2024T11:45:41 - [MESSAGE][PASSED] - Verify element property value successfully
+
+13-11-2024T11:45:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+13-11-2024T11:45:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+13-11-2024T11:45:42 - [TEST_STEP][PASSED] - response4 = sendRequest(findTestObject("Booking/DELETE Booking")): Send request successfully
+
+13-11-2024T11:45:42 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_E2E\20241113_114527\requests\main\4.har
+
+13-11-2024T11:45:42 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response4, 201): Verify response status code successfully
+
+13-11-2024T11:45:42 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-11-2024T11:45:36 - [TEST_SUITE][PASSED] - TS_E2E: Test Cases/TC Booking/TC_Token, PostBooking, UpdateBooking, DeleteBooking]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_Get ID" tests="5" failures="0" errors="0" time="3.625" skipped="0" timestamp="13-11-2024T11:45:53" hostname="aq - DESKTOP-4SVMIJA" id="Test Suites/Booking/TS_Get ID">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\aq\\Katalon Studio\\TAK_Akhir\\Reports\\20241113_114526\\Booking\\TS_Get ID\\20241113_114529"/>
+         <property name="logFiles" value="C:\\Users\\aq\\Katalon Studio\\TAK_Akhir\\Reports\\20241113_114526\\Booking\\TS_Get ID\\20241113_114529\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aq - DESKTOP-4SVMIJA"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+      </properties>
+      <testcase name="Test Cases/TC Booking/TC_Get by ID/TC_Get ID" time="2.262" classname="Test Cases/TC Booking/TC_Get by ID/TC_Get ID" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:45:53 - [TEST_CASE][PASSED] - Test Cases/TC Booking/TC_Get by ID/TC_Get ID: Test Cases/TC Booking/TC_Get by ID/TC_Get ID
+
+13-11-2024T11:45:53 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Booking/GET Booking ID")): Send request successfully
+
+13-11-2024T11:45:55 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_Get ID\20241113_114529\requests\main\0.har
+
+13-11-2024T11:45:55 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+13-11-2024T11:45:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_1" time="0.327" classname="Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_1" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:45:55 - [TEST_CASE][PASSED] - Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_1: Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_1
+
+13-11-2024T11:45:55 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Booking/GET Booking by ID/GET Booking by ID_1")): Send request successfully
+
+13-11-2024T11:45:56 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_Get ID\20241113_114529\requests\main\1.har
+
+13-11-2024T11:45:56 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+13-11-2024T11:45:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_2" time="0.303" classname="Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_2" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:45:56 - [TEST_CASE][PASSED] - Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_2: Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_2
+
+13-11-2024T11:45:56 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Booking/GET Booking by ID/GET Booking by ID_2")): Send request successfully
+
+13-11-2024T11:45:56 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_Get ID\20241113_114529\requests\main\2.har
+
+13-11-2024T11:45:56 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+13-11-2024T11:45:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_3" time="0.302" classname="Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_3" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:45:56 - [TEST_CASE][PASSED] - Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_3: Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_3
+
+13-11-2024T11:45:56 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Booking/GET Booking by ID/GET Booking by ID_3")): Send request successfully
+
+13-11-2024T11:45:56 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_Get ID\20241113_114529\requests\main\3.har
+
+13-11-2024T11:45:56 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+13-11-2024T11:45:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_4" time="0.309" classname="Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_4" status="PASSED">
+         <system-out><![CDATA[13-11-2024T11:45:56 - [TEST_CASE][PASSED] - Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_4: Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_4
+
+13-11-2024T11:45:56 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Booking/GET Booking by ID/GET Booking by ID_4")): Send request successfully
+
+13-11-2024T11:45:56 - [MESSAGE][INFO] - HAR: C:\Users\aq\Katalon Studio\TAK_Akhir\Reports\20241113_114526\Booking\TS_Get ID\20241113_114529\requests\main\4.har
+
+13-11-2024T11:45:56 - [MESSAGE][PASSED] - Send request successfully
+
+13-11-2024T11:45:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+13-11-2024T11:45:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-11-2024T11:45:53 - [TEST_SUITE][PASSED] - TS_Get ID: Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_4]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

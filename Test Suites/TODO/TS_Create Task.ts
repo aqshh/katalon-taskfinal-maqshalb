@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Create Task</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>182aef0f-c71a-4d46-9b28-de6d0e3ff47d</testSuiteGuid>
+   <testCaseLink>
+      <guid>2195433e-216a-402d-9b5a-7de1bd1c95c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_TODO/TC_Create Task</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>62c7cc2b-cd35-45e7-9f6b-28f7c644a636</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/KatalonData/Task</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>62c7cc2b-cd35-45e7-9f6b-28f7c644a636</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TaskTitle</value>
+         <variableId>3656a75a-8d9f-4324-b226-b93843cd2d6a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62c7cc2b-cd35-45e7-9f6b-28f7c644a636</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Task</value>
+         <variableId>1d1b35ab-54e8-4227-9f49-beae5a166639</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62c7cc2b-cd35-45e7-9f6b-28f7c644a636</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TimeHours</value>
+         <variableId>2fb9981c-3cdd-490b-8718-98917a6ccd5c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>62c7cc2b-cd35-45e7-9f6b-28f7c644a636</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TimeMinutes</value>
+         <variableId>8a6a9622-488c-40cb-90bb-c0954e701a24</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

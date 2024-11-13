@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Create Task,,,,11-11-2024 19:00:27,11-11-2024 19:04:57,4m - 30.336s,PASSED
+,,,,,,,
+Test Cases/TC_Create Task,,,,11-11-2024 19:00:27,11-11-2024 19:01:29,1m - 1.670s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 19:00:27,11-11-2024 19:01:27,59.705s,PASSED
+closeApplication(),,,,11-11-2024 19:01:27,11-11-2024 19:01:29,1.853s,PASSED
+,,,,,,,
+Test Cases/TC_Create Task,,,,11-11-2024 19:02:15,11-11-2024 19:03:07,52.205s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 19:02:15,11-11-2024 19:03:05,50.366s,PASSED
+closeApplication(),,,,11-11-2024 19:03:05,11-11-2024 19:03:07,1.833s,PASSED
+,,,,,,,
+Test Cases/TC_Create Task,,,,11-11-2024 19:03:07,11-11-2024 19:04:07,59.310s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 19:03:07,11-11-2024 19:04:05,57.586s,PASSED
+closeApplication(),,,,11-11-2024 19:04:05,11-11-2024 19:04:07,1.718s,PASSED
+,,,,,,,
+Test Cases/TC_Create Task,,,,11-11-2024 19:04:07,11-11-2024 19:04:57,50.625s,PASSED
+"callTestCase(findTestCase(""Block/Create Task""), [""TaskTitle"":TaskTitle, ""Task"":Task, ""TimeHours"":TimeHours, ""TimeMinutes"":TimeMinutes], STOP_ON_FAILURE)",,,,11-11-2024 19:04:07,11-11-2024 19:04:55,48.869s,PASSED
+closeApplication(),,,,11-11-2024 19:04:55,11-11-2024 19:04:57,1.750s,PASSED

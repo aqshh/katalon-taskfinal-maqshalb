@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Name</name>
+   <tag></tag>
+   <elementGuidId>a46c95ba-2c69-4b0f-b879-e465750bf84e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c21-17</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Name \*$/ >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a2b1b184-069b-4a15-9ab3-5f636289593d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c21-17</value>
+      <webElementGuid>462c7fcd-f259-4020-9b22-f78dac1b700e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Name *</value>
+      <webElementGuid>af260289-4e51-418f-8821-c5878485eb72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-0&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c40-15&quot;]/div[@class=&quot;ng-tns-c40-15&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c21-17 mat-accent mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label ng-pristine ng-invalid ng-star-inserted mat-form-field-invalid ng-touched mat-form-field-hide-placeholder&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c21-17&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c21-17&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c21-17&quot;]</value>
+      <webElementGuid>7054ce4f-0c28-44f1-bae9-ccba7218de51</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-accordion-child-0']/div/div/mat-form-field/div/div/div[3]</value>
+      <webElementGuid>e0cb19f0-d310-43a7-b3ff-bd41cd9122e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a credit or debit card'])[1]/following::div[14]</value>
+      <webElementGuid>4a472daa-690a-4c49-b859-4aed458ea91f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add new card'])[1]/following::div[14]</value>
+      <webElementGuid>39a15bc7-acad-4c04-8bf1-b9296107aeb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please provide a name.'])[1]/preceding::div[1]</value>
+      <webElementGuid>6a6ff86b-5156-4277-948d-4080e157d30e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[3]</value>
+      <webElementGuid>79c4a650-5798-4522-ab2e-284f21af30a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Name *' or . = 'Name *')]</value>
+      <webElementGuid>978d4902-0b16-4475-bcae-5646b3c6614e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

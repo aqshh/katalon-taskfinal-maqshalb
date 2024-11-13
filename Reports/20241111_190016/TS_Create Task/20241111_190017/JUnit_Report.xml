@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Create Task" time="270.336" tests="4" failures="0" errors="0">
+   <testsuite name="TS_Create Task" tests="4" failures="0" errors="0" time="270.336" skipped="0" timestamp="11-11-2024T19:00:27" hostname="aq - DESKTOP-4SVMIJA" id="Test Suites/TS_Create Task">
+      <properties>
+         <property name="deviceName" value="realme RMX3516 (Android 13)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\aq\\Katalon Studio\\TAK_KatalonMobile\\Reports\\20241111_190016\\TS_Create Task\\20241111_190017"/>
+         <property name="logFiles" value="C:\\Users\\aq\\Katalon Studio\\TAK_KatalonMobile\\Reports\\20241111_190016\\TS_Create Task\\20241111_190017\\appium.log, C:\\Users\\aq\\Katalon Studio\\TAK_KatalonMobile\\Reports\\20241111_190016\\TS_Create Task\\20241111_190017\\appium_error.log, C:\\Users\\aq\\Katalon Studio\\TAK_KatalonMobile\\Reports\\20241111_190016\\TS_Create Task\\20241111_190017\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aq - DESKTOP-4SVMIJA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.12.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.12.1"/>
+         <property name="deviceModel" value="RMX3516"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="adb-0L52223V211051B6-b2JV8E._adb-tls-connect._tcp"/>
+         <property name="deviceName" value="realme RMX3516 (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC_Create Task" time="61.67" classname="Test Cases/TC_Create Task" status="PASSED">
+         <system-out><![CDATA[11-11-2024T19:00:27 - [TEST_CASE][PASSED] - Test Cases/TC_Create Task: Test Cases/TC_Create Task
+
+11-11-2024T19:00:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Block/Create Task"), ["TaskTitle":TaskTitle, "Task":Task, "TimeHours":TimeHours, "TimeMinutes":TimeMinutes], STOP_ON_FAILURE): Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:00:27 - [TEST_CASE][PASSED] - Test Cases/Block/Create Task: Test Cases/Block/Create Task
+
+11-11-2024T19:00:27 - [TEST_STEP][PASSED] - startApplication("C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk", true): Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:00:27 - [MESSAGE][INFO] - Starting application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:00:27 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+11-11-2024T19:00:33 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+11-11-2024T19:00:33 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aq\.appium
+
+11-11-2024T19:00:33 - [MESSAGE][INFO] - appium outlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Create Task\20241111_190017\appium.log
+
+11-11-2024T19:00:33 - [MESSAGE][INFO] - appium errlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Create Task\20241111_190017\appium_error.log
+
+11-11-2024T19:00:34 - [MESSAGE][INFO] - Appium server started on port 63,472
+
+11-11-2024T19:00:58 - [MESSAGE][PASSED] - Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:00:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:00:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:01:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.AddTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:01:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:01:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title"), TaskTitle, 0): Text 'Makan' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:01:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:06 - [MESSAGE][PASSED] - Text 'Makan' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task"), Task, 0): Text 'Ketoprak' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:01:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:09 - [MESSAGE][PASSED] - Text 'Ketoprak' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:01:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:01:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:01:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.view.View - Date-16"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:01:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:01:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - DateOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:01:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:01:12 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/android.widget.EditText - Set Time"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:01:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:01:13 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:01:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:01:15 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours"), TimeHours, 0): Text '10' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:01:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:17 - [MESSAGE][PASSED] - Text '10' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:01:17 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes"), TimeMinutes, 0): Text '30' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:01:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:20 - [MESSAGE][PASSED] - Text '30' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:01:20 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:01:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:01:21 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:01:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:01:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:01:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:01:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:01:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:01:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:01:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:01:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CreateTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:01:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:01:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:01:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle"), TaskTitle): Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:01:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:01:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:01:27 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+11-11-2024T19:01:29 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Create Task" time="52.205" classname="Test Cases/TC_Create Task" status="PASSED">
+         <system-out><![CDATA[11-11-2024T19:02:15 - [TEST_CASE][PASSED] - Test Cases/TC_Create Task: Test Cases/TC_Create Task
+
+11-11-2024T19:02:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Block/Create Task"), ["TaskTitle":TaskTitle, "Task":Task, "TimeHours":TimeHours, "TimeMinutes":TimeMinutes], STOP_ON_FAILURE): Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:02:15 - [TEST_CASE][PASSED] - Test Cases/Block/Create Task: Test Cases/Block/Create Task
+
+11-11-2024T19:02:15 - [TEST_STEP][PASSED] - startApplication("C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk", true): Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:02:15 - [MESSAGE][INFO] - Starting application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:02:35 - [MESSAGE][PASSED] - Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:02:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:02:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:02:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.AddTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:02:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:02:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title"), TaskTitle, 0): Text 'Minum' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:02:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:43 - [MESSAGE][PASSED] - Text 'Minum' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task"), Task, 0): Text 'Es The' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:02:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:46 - [MESSAGE][PASSED] - Text 'Es The' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:02:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:02:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:02:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.view.View - Date-16"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:02:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:02:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - DateOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:02:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:02:50 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/android.widget.EditText - Set Time"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:02:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:02:50 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:02:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:02:52 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours"), TimeHours, 0): Text '10' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:02:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:55 - [MESSAGE][PASSED] - Text '10' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:02:55 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes"), TimeMinutes, 0): Text '40' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:02:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:58 - [MESSAGE][PASSED] - Text '40' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:02:58 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:02:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:02:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:02:59 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:02:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:03:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:03:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:03:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:03:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:03:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:03:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:03:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CreateTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:03:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:03:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle"), TaskTitle): Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:03:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:03:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:03:05 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+11-11-2024T19:03:07 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Create Task" time="59.31" classname="Test Cases/TC_Create Task" status="PASSED">
+         <system-out><![CDATA[11-11-2024T19:03:07 - [TEST_CASE][PASSED] - Test Cases/TC_Create Task: Test Cases/TC_Create Task
+
+11-11-2024T19:03:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Block/Create Task"), ["TaskTitle":TaskTitle, "Task":Task, "TimeHours":TimeHours, "TimeMinutes":TimeMinutes], STOP_ON_FAILURE): Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:03:07 - [TEST_CASE][PASSED] - Test Cases/Block/Create Task: Test Cases/Block/Create Task
+
+11-11-2024T19:03:07 - [TEST_STEP][PASSED] - startApplication("C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk", true): Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:03:07 - [MESSAGE][INFO] - Starting application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:03:07 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+11-11-2024T19:03:13 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+11-11-2024T19:03:13 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aq\.appium
+
+11-11-2024T19:03:13 - [MESSAGE][INFO] - appium outlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Create Task\20241111_190017\appium.log
+
+11-11-2024T19:03:13 - [MESSAGE][INFO] - appium errlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Create Task\20241111_190017\appium_error.log
+
+11-11-2024T19:03:14 - [MESSAGE][INFO] - Appium server started on port 64,454
+
+11-11-2024T19:03:36 - [MESSAGE][PASSED] - Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:03:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:03:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:03:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.AddTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:03:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:03:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title"), TaskTitle, 0): Text 'Mandi' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:03:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:44 - [MESSAGE][PASSED] - Text 'Mandi' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task"), Task, 0): Text 'Pagi' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:03:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:47 - [MESSAGE][PASSED] - Text 'Pagi' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:03:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:03:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:03:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.view.View - Date-16"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:03:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:03:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - DateOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:03:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:03:51 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/android.widget.EditText - Set Time"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:03:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:03:52 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:03:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:03:53 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours"), TimeHours, 0): Text '11' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:03:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:56 - [MESSAGE][PASSED] - Text '11' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:03:56 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes"), TimeMinutes, 0): Text '0' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:03:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:58 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:03:58 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:03:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:03:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:03:59 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:03:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:04:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:04:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:04:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:04:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:04:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:04:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:04:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CreateTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:04:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:04:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle"), TaskTitle): Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:04:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:04:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:04:05 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+11-11-2024T19:04:07 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Create Task" time="50.625" classname="Test Cases/TC_Create Task" status="PASSED">
+         <system-out><![CDATA[11-11-2024T19:04:07 - [TEST_CASE][PASSED] - Test Cases/TC_Create Task: Test Cases/TC_Create Task
+
+11-11-2024T19:04:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Block/Create Task"), ["TaskTitle":TaskTitle, "Task":Task, "TimeHours":TimeHours, "TimeMinutes":TimeMinutes], STOP_ON_FAILURE): Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:04:07 - [TEST_CASE][PASSED] - Test Cases/Block/Create Task: Test Cases/Block/Create Task
+
+11-11-2024T19:04:07 - [TEST_STEP][PASSED] - startApplication("C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk", true): Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:04:07 - [MESSAGE][INFO] - Starting application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:04:07 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+11-11-2024T19:04:12 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+11-11-2024T19:04:12 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aq\.appium
+
+11-11-2024T19:04:12 - [MESSAGE][INFO] - appium outlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Create Task\20241111_190017\appium.log
+
+11-11-2024T19:04:12 - [MESSAGE][INFO] - appium errlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Create Task\20241111_190017\appium_error.log
+
+11-11-2024T19:04:13 - [MESSAGE][INFO] - Appium server started on port 64,721
+
+11-11-2024T19:04:29 - [MESSAGE][PASSED] - Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:04:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:04:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:04:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.AddTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:04:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:04:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title"), TaskTitle, 0): Text 'Tidur' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:04:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:36 - [MESSAGE][PASSED] - Text 'Tidur' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:04:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task"), Task, 0): Text 'Malem' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:04:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:39 - [MESSAGE][PASSED] - Text 'Malem' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:04:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:04:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:04:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.view.View - Date-16"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:04:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:04:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - DateOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:04:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:04:42 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/android.widget.EditText - Set Time"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:04:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:04:43 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:04:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:04:44 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours"), TimeHours, 0): Text '3' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:04:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:47 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:04:47 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes"), TimeMinutes, 0): Text '0' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:04:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:49 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:04:49 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:04:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:04:50 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:04:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:04:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:04:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:04:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:04:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:04:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:04:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:04:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CreateTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:04:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:04:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:04:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle"), TaskTitle): Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:04:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:04:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:04:55 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+11-11-2024T19:04:57 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-11-2024T19:00:27 - [TEST_SUITE][FAILED] - TS_Create Task: Test Cases/TC_Create Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Block/Create Task' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Create Task.run(TC_Create Task:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1731326417576.run(TempTestSuite1731326417576.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to start application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at Create Task.run(Create Task:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.avinashproduct.todo' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.avinashproduct.todo.SplashScreenActivity' or 'com.avinashproduct.todo.com.avinashproduct.todo.SplashScreenActivity' never started. Consider checking the driver's troubleshooting documentation.
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-4SVMIJA', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.avinashproduct.todo' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.avinashproduct.todo.SplashScreenActivity' or 'com.avinashproduct.todo.com.avinashproduct.todo.SplashScreenActivity' never started. Consider checking the driver's troubleshooting documentation.
+    at getResponseForW3CError (C:\Users\aq\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (C:\Users\aq\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-4SVMIJA', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:23)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:560)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:542)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:597)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:510)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:89)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at Script1731315778651.run(Script1731315778651.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Script1731319725454.run(Script1731319725454.groovy:20)
+	... 15 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 59 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.avinashproduct.todo' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.avinashproduct.todo.SplashScreenActivity' or 'com.avinashproduct.todo.com.avinashproduct.todo.SplashScreenActivity' never started. Consider checking the driver's troubleshooting documentation.
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-4SVMIJA', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.avinashproduct.todo' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.avinashproduct.todo.SplashScreenActivity' or 'com.avinashproduct.todo.com.avinashproduct.todo.SplashScreenActivity' never started. Consider checking the driver's troubleshooting documentation.
+    at getResponseForW3CError (C:\Users\aq\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (C:\Users\aq\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:23)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:560)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:542)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:597)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:510)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:89)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at Create Task.run(Create Task:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Create Task.run(TC_Create Task:20)
+	... 15 more]]></system-out>
+      <system-err><![CDATA[11-11-2024T19:00:27 - [TEST_SUITE][FAILED] - TS_Create Task: Test Cases/TC_Create Task FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Block/Create Task' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Create Task.run(TC_Create Task:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1731326417576.run(TempTestSuite1731326417576.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to start application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at Create Task.run(Create Task:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.avinashproduct.todo' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.avinashproduct.todo.SplashScreenActivity' or 'com.avinashproduct.todo.com.avinashproduct.todo.SplashScreenActivity' never started. Consider checking the driver's troubleshooting documentation.
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-4SVMIJA', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.avinashproduct.todo' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.avinashproduct.todo.SplashScreenActivity' or 'com.avinashproduct.todo.com.avinashproduct.todo.SplashScreenActivity' never started. Consider checking the driver's troubleshooting documentation.
+    at getResponseForW3CError (C:\Users\aq\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (C:\Users\aq\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-4SVMIJA', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:23)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:560)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:542)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:597)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:510)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:89)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at Script1731315778651.run(Script1731315778651.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at Script1731319725454.run(Script1731319725454.groovy:20)
+	... 15 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	... 59 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.avinashproduct.todo' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.avinashproduct.todo.SplashScreenActivity' or 'com.avinashproduct.todo.com.avinashproduct.todo.SplashScreenActivity' never started. Consider checking the driver's troubleshooting documentation.
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-4SVMIJA', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: SwipeableAndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.avinashproduct.todo' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.avinashproduct.todo.SplashScreenActivity' or 'com.avinashproduct.todo.com.avinashproduct.todo.SplashScreenActivity' never started. Consider checking the driver's troubleshooting documentation.
+    at getResponseForW3CError (C:\Users\aq\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (C:\Users\aq\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:85)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.<init>(SwipeableAndroidDriver.java:23)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:560)
+	at com.kms.katalon.core.appium.driver.AppiumDriverManager.createMobileDriver(AppiumDriverManager.java:542)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:597)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:510)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:89)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:91)
+	at com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)
+	at Create Task.run(Create Task:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_Create Task.run(TC_Create Task:20)
+	... 15 more]]></system-err>
+   </testsuite>
+</testsuites>

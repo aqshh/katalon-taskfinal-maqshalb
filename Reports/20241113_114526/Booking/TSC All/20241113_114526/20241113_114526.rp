@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20241113_114526</name>
+   <tag></tag>
+   <displayName>20241113_114526</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20241113_114526/Booking/TS_E2E/20241113_114527</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Service</groupName>
+            <profileName>beta</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Web Service</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20241113_114526/Booking/TS_Get ID/20241113_114529</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Service</groupName>
+            <profileName>beta</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Web Service</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Booking/TSC All</testSuiteCollectionId>
+</ReportCollectionEntity>

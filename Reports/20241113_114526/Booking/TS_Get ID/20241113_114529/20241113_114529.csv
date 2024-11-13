@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Get ID,,,,13-11-2024 11:45:53,13-11-2024 11:45:56,3.625s,PASSED
+,,,,,,,
+Test Cases/TC Booking/TC_Get by ID/TC_Get ID,,,,13-11-2024 11:45:53,13-11-2024 11:45:55,2.262s,PASSED
+"Response = sendRequest(findTestObject(""Booking/GET Booking ID""))",,,,13-11-2024 11:45:53,13-11-2024 11:45:55,2.194s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,13-11-2024 11:45:55,13-11-2024 11:45:55,0.008s,PASSED
+,,,,,,,
+Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_1,,,,13-11-2024 11:45:55,13-11-2024 11:45:56,0.327s,PASSED
+"Response = sendRequest(findTestObject(""Booking/GET Booking by ID/GET Booking by ID_1""))",,,,13-11-2024 11:45:55,13-11-2024 11:45:56,0.279s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.001s,PASSED
+,,,,,,,
+Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_2,,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.303s,PASSED
+"Response = sendRequest(findTestObject(""Booking/GET Booking by ID/GET Booking by ID_2""))",,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.272s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.003s,PASSED
+,,,,,,,
+Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_3,,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.302s,PASSED
+"Response = sendRequest(findTestObject(""Booking/GET Booking by ID/GET Booking by ID_3""))",,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.273s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.001s,PASSED
+,,,,,,,
+Test Cases/TC Booking/TC_Get by ID/TC_Get by ID_4,,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.309s,PASSED
+"Response = sendRequest(findTestObject(""Booking/GET Booking by ID/GET Booking by ID_4""))",,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.276s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,13-11-2024 11:45:56,13-11-2024 11:45:56,0.001s,PASSED

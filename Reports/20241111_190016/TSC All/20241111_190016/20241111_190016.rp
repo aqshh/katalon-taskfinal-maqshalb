@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20241111_190016</name>
+   <tag></tag>
+   <displayName>20241111_190016</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20241111_190016/TS_Create Task/20241111_190017</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>realme RMX3516 (Android 13)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>adb-0L52223V211051B6-b2JV8E._adb-tls-connect._tcp</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20241111_190016/TS_Delete Task/20241111_190019</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>realme RMX3516 (Android 13)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>adb-0L52223V211051B6-b2JV8E._adb-tls-connect._tcp</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20241111_190016/TS_Edit Task/20241111_190021</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>realme RMX3516 (Android 13)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>adb-0L52223V211051B6-b2JV8E._adb-tls-connect._tcp</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/TSC All</testSuiteCollectionId>
+</ReportCollectionEntity>

@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/TC_Juice/TC_Buying Products","testCaseId":"Test Cases/TC_Juice/TC_Buying Products","iterationVariableName":"","bindedValues":{"Delivery":"\u0027findTestObject(\\\"Juice/Buying Products/span_Delivery3Days\\\")\u0027"}}
+{"testCaseName":"Test Cases/TC_Juice/TC_Buying Products","testCaseId":"Test Cases/TC_Juice/TC_Buying Products","iterationVariableName":"","bindedValues":{"Delivery":"\u0027findTestObject(\\\"Juice/Buying Products/span_Delivery1Days\\\")\u0027"}}
+{"testCaseName":"Test Cases/TC_Juice/TC_Buying Products","testCaseId":"Test Cases/TC_Juice/TC_Buying Products","iterationVariableName":"","bindedValues":{"Delivery":"\u0027findTestObject(\\\"Juice/Buying Products/span_Delivery5Days\\\")\u0027"}}

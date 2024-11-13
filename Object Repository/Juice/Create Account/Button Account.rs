@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button Account</name>
+   <tag></tag>
+   <elementGuidId>82d99626-0fd9-4f44-b22b-85981103b877</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#navbarAccount</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='navbarAccount']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Show/hide account menu&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6513b670-ad15-4148-b1f5-819f2f7b3e45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Show/hide account menu</value>
+      <webElementGuid>c94c3d96-f5fa-426d-a663-fb209391d8e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>navbarAccount</value>
+      <webElementGuid>da96b9d5-3aa3-45fd-83de-7f5d1691b562</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-menu-trigger buttons mat-button mat-button-base cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>7501bf1d-b396-4efe-917d-293d91884b4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>menu</value>
+      <webElementGuid>ab89e0cc-5e85-4924-85b8-a5498508bcc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> account_circle  Account </value>
+      <webElementGuid>61461fea-4bc0-4615-bcea-584fa9023766</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarAccount&quot;)</value>
+      <webElementGuid>5e60c0d4-d7ec-4733-a063-c265a40afd0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='navbarAccount']</value>
+      <webElementGuid>2b196e21-51c0-4704-898b-0db78b07bee1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OWASP Juice Shop'])[4]/following::button[1]</value>
+      <webElementGuid>98281a6c-d8fd-41d4-8ec9-8c8536f54a99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='v17.1.1'])[1]/following::button[3]</value>
+      <webElementGuid>f77a962a-1aff-4f90-bfab-fd4bd09c2e0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>ef35e1ff-fc65-4b72-af44-084e1343454e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'navbarAccount' and (text() = ' account_circle  Account ' or . = ' account_circle  Account ')]</value>
+      <webElementGuid>08908153-c9ea-472e-ae98-1d71527d7df3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

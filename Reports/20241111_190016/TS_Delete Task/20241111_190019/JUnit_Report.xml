@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Delete Task" time="225.283" tests="4" failures="0" errors="0">
+   <testsuite name="TS_Delete Task" tests="4" failures="0" errors="0" time="225.283" skipped="0" timestamp="11-11-2024T19:05:07" hostname="aq - DESKTOP-4SVMIJA" id="Test Suites/TS_Delete Task">
+      <properties>
+         <property name="deviceName" value="realme RMX3516 (Android 13)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\aq\\Katalon Studio\\TAK_KatalonMobile\\Reports\\20241111_190016\\TS_Delete Task\\20241111_190019"/>
+         <property name="logFiles" value="C:\\Users\\aq\\Katalon Studio\\TAK_KatalonMobile\\Reports\\20241111_190016\\TS_Delete Task\\20241111_190019\\appium.log, C:\\Users\\aq\\Katalon Studio\\TAK_KatalonMobile\\Reports\\20241111_190016\\TS_Delete Task\\20241111_190019\\appium_error.log, C:\\Users\\aq\\Katalon Studio\\TAK_KatalonMobile\\Reports\\20241111_190016\\TS_Delete Task\\20241111_190019\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aq - DESKTOP-4SVMIJA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.12.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.12.1"/>
+         <property name="deviceModel" value="RMX3516"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="adb-0L52223V211051B6-b2JV8E._adb-tls-connect._tcp"/>
+         <property name="deviceName" value="realme RMX3516 (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC_Delete Task" time="56.234" classname="Test Cases/TC_Delete Task" status="PASSED">
+         <system-out><![CDATA[11-11-2024T19:05:07 - [TEST_CASE][PASSED] - Test Cases/TC_Delete Task: Test Cases/TC_Delete Task
+
+11-11-2024T19:05:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Block/Create Task"), ["TaskTitle":TaskTitle, "Task":Task, "TimeHours":TimeHours, "TimeMinutes":TimeMinutes], STOP_ON_FAILURE): Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:05:08 - [TEST_CASE][PASSED] - Test Cases/Block/Create Task: Test Cases/Block/Create Task
+
+11-11-2024T19:05:08 - [TEST_STEP][PASSED] - startApplication("C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk", true): Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:05:08 - [MESSAGE][INFO] - Starting application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:05:08 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+11-11-2024T19:05:13 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+11-11-2024T19:05:13 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aq\.appium
+
+11-11-2024T19:05:13 - [MESSAGE][INFO] - appium outlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Delete Task\20241111_190019\appium.log
+
+11-11-2024T19:05:13 - [MESSAGE][INFO] - appium errlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Delete Task\20241111_190019\appium_error.log
+
+11-11-2024T19:05:14 - [MESSAGE][INFO] - Appium server started on port 64,997
+
+11-11-2024T19:05:33 - [MESSAGE][PASSED] - Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:05:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:05:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:05:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.AddTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:05:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:05:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title"), TaskTitle, 0): Text 'Makan' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:05:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:40 - [MESSAGE][PASSED] - Text 'Makan' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:05:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task"), Task, 0): Text 'Ketoprak' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:05:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:43 - [MESSAGE][PASSED] - Text 'Ketoprak' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:05:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:05:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:05:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.view.View - Date-16"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:05:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:05:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - DateOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:05:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:05:46 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/android.widget.EditText - Set Time"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:05:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:05:47 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:05:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:05:49 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours"), TimeHours, 0): Text '10' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:51 - [MESSAGE][PASSED] - Text '10' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:05:51 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes"), TimeMinutes, 0): Text '30' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:05:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:53 - [MESSAGE][PASSED] - Text '30' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:05:53 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:05:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:05:54 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:05:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:05:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:05:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:05:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:05:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:05:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:05:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:05:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CreateTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:05:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:05:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:05:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle"), TaskTitle): Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:06:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:06:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:06:00 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption'
+
+11-11-2024T19:06:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption'
+
+11-11-2024T19:06:00 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete'
+
+11-11-2024T19:06:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete'
+
+11-11-2024T19:06:02 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE'
+
+11-11-2024T19:06:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE'
+
+11-11-2024T19:06:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+11-11-2024T19:06:04 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Delete Task" time="57.25" classname="Test Cases/TC_Delete Task" status="PASSED">
+         <system-out><![CDATA[11-11-2024T19:06:04 - [TEST_CASE][PASSED] - Test Cases/TC_Delete Task: Test Cases/TC_Delete Task
+
+11-11-2024T19:06:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Block/Create Task"), ["TaskTitle":TaskTitle, "Task":Task, "TimeHours":TimeHours, "TimeMinutes":TimeMinutes], STOP_ON_FAILURE): Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:06:04 - [TEST_CASE][PASSED] - Test Cases/Block/Create Task: Test Cases/Block/Create Task
+
+11-11-2024T19:06:04 - [TEST_STEP][PASSED] - startApplication("C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk", true): Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:06:04 - [MESSAGE][INFO] - Starting application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:06:04 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+11-11-2024T19:06:09 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+11-11-2024T19:06:09 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aq\.appium
+
+11-11-2024T19:06:09 - [MESSAGE][INFO] - appium outlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Delete Task\20241111_190019\appium.log
+
+11-11-2024T19:06:09 - [MESSAGE][INFO] - appium errlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Delete Task\20241111_190019\appium_error.log
+
+11-11-2024T19:06:10 - [MESSAGE][INFO] - Appium server started on port 65,258
+
+11-11-2024T19:06:29 - [MESSAGE][PASSED] - Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:06:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:06:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:06:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.AddTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:06:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:06:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title"), TaskTitle, 0): Text 'Minum' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:06:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:36 - [MESSAGE][PASSED] - Text 'Minum' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:06:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task"), Task, 0): Text 'Es The' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:06:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:39 - [MESSAGE][PASSED] - Text 'Es The' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:06:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:06:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:06:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.view.View - Date-16"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:06:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:06:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - DateOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:06:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:06:42 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/android.widget.EditText - Set Time"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:06:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:06:43 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:06:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:06:45 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours"), TimeHours, 0): Text '10' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:06:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:47 - [MESSAGE][PASSED] - Text '10' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:06:47 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes"), TimeMinutes, 0): Text '40' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:06:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:50 - [MESSAGE][PASSED] - Text '40' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:06:50 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:06:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:06:51 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:06:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:06:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:06:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:06:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:06:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:06:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:06:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:06:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CreateTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:06:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle"), TaskTitle): Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:06:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:06:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:06:57 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption'
+
+11-11-2024T19:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption'
+
+11-11-2024T19:06:57 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete'
+
+11-11-2024T19:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete'
+
+11-11-2024T19:06:59 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE'
+
+11-11-2024T19:06:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:06:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE'
+
+11-11-2024T19:06:59 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+11-11-2024T19:07:01 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Delete Task" time="57.298" classname="Test Cases/TC_Delete Task" status="PASSED">
+         <system-out><![CDATA[11-11-2024T19:07:01 - [TEST_CASE][PASSED] - Test Cases/TC_Delete Task: Test Cases/TC_Delete Task
+
+11-11-2024T19:07:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Block/Create Task"), ["TaskTitle":TaskTitle, "Task":Task, "TimeHours":TimeHours, "TimeMinutes":TimeMinutes], STOP_ON_FAILURE): Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:07:01 - [TEST_CASE][PASSED] - Test Cases/Block/Create Task: Test Cases/Block/Create Task
+
+11-11-2024T19:07:01 - [TEST_STEP][PASSED] - startApplication("C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk", true): Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:07:01 - [MESSAGE][INFO] - Starting application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:07:01 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+11-11-2024T19:07:06 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+11-11-2024T19:07:06 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aq\.appium
+
+11-11-2024T19:07:06 - [MESSAGE][INFO] - appium outlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Delete Task\20241111_190019\appium.log
+
+11-11-2024T19:07:06 - [MESSAGE][INFO] - appium errlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Delete Task\20241111_190019\appium_error.log
+
+11-11-2024T19:07:07 - [MESSAGE][INFO] - Appium server started on port 49,179
+
+11-11-2024T19:07:26 - [MESSAGE][PASSED] - Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:07:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:07:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:07:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.AddTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:07:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:07:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title"), TaskTitle, 0): Text 'Mandi' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:07:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:33 - [MESSAGE][PASSED] - Text 'Mandi' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:07:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task"), Task, 0): Text 'Pagi' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:07:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:36 - [MESSAGE][PASSED] - Text 'Pagi' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:07:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:07:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:07:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.view.View - Date-16"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:07:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:07:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - DateOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:07:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:07:40 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/android.widget.EditText - Set Time"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:07:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:07:40 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:07:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:07:42 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours"), TimeHours, 0): Text '11' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:07:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:45 - [MESSAGE][PASSED] - Text '11' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:07:45 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes"), TimeMinutes, 0): Text '0' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:07:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:47 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:07:47 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:07:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:07:48 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:07:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:07:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:07:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:07:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:07:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:07:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:07:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:07:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CreateTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:07:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:07:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle"), TaskTitle): Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:07:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:07:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:07:54 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption'
+
+11-11-2024T19:07:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption'
+
+11-11-2024T19:07:54 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete'
+
+11-11-2024T19:07:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete'
+
+11-11-2024T19:07:56 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE'
+
+11-11-2024T19:07:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:07:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE'
+
+11-11-2024T19:07:56 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+11-11-2024T19:07:58 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Delete Task" time="54.301" classname="Test Cases/TC_Delete Task" status="PASSED">
+         <system-out><![CDATA[11-11-2024T19:07:58 - [TEST_CASE][PASSED] - Test Cases/TC_Delete Task: Test Cases/TC_Delete Task
+
+11-11-2024T19:07:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Block/Create Task"), ["TaskTitle":TaskTitle, "Task":Task, "TimeHours":TimeHours, "TimeMinutes":TimeMinutes], STOP_ON_FAILURE): Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:07:58 - [TEST_CASE][PASSED] - Test Cases/Block/Create Task: Test Cases/Block/Create Task
+
+11-11-2024T19:07:58 - [TEST_STEP][PASSED] - startApplication("C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk", true): Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:07:58 - [MESSAGE][INFO] - Starting application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:07:58 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+11-11-2024T19:08:04 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+11-11-2024T19:08:04 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\aq\.appium
+
+11-11-2024T19:08:04 - [MESSAGE][INFO] - appium outlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Delete Task\20241111_190019\appium.log
+
+11-11-2024T19:08:04 - [MESSAGE][INFO] - appium errlog: C:\Users\aq\Katalon Studio\TAK_KatalonMobile\Reports\20241111_190016\TS_Delete Task\20241111_190019\appium_error.log
+
+11-11-2024T19:08:05 - [MESSAGE][INFO] - Appium server started on port 49,440
+
+11-11-2024T19:08:23 - [MESSAGE][PASSED] - Started application: 'C:\Users\aq\Katalon Studio\TAK_KatalonMobile\androidapp\Todo_2.0_APKPure.apk'
+
+11-11-2024T19:08:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/android.widget.TextView - Skip"), 0): Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:08:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/android.widget.TextView - Skip'
+
+11-11-2024T19:08:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.AddTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:08:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.AddTask'
+
+11-11-2024T19:08:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title"), TaskTitle, 0): Text 'Tidur' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:08:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:29 - [MESSAGE][PASSED] - Text 'Tidur' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter task title'
+
+11-11-2024T19:08:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task"), Task, 0): Text 'Malem' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:08:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:32 - [MESSAGE][PASSED] - Text 'Malem' has been set to element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Enter your task'
+
+11-11-2024T19:08:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Date'
+
+11-11-2024T19:08:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.view.View - Date-16"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:08:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.view.View - Date-16'
+
+11-11-2024T19:08:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - DateOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:08:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - DateOK'
+
+11-11-2024T19:08:35 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/android.widget.EditText - Set Time"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.EditText - Set Time'
+
+11-11-2024T19:08:35 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.SetTimeText Button'
+
+11-11-2024T19:08:37 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours"), TimeHours, 0): Text '3' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:08:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:40 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Hours'
+
+11-11-2024T19:08:40 - [TEST_STEP][PASSED] - setText(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes"), TimeMinutes, 0): Text '0' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:08:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:42 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.EditText - SetTimeText Minutes'
+
+11-11-2024T19:08:42 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:08:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - SetTimeTextAMPM'
+
+11-11-2024T19:08:43 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:08:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/3.1.SetTimeText/android.widget.CheckedTextView - PM'
+
+11-11-2024T19:08:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:08:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.Button - TimeOK'
+
+11-11-2024T19:08:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:08:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.TextView - SelectCategory'
+
+11-11-2024T19:08:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:08:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CheckedTextView - Personal'
+
+11-11-2024T19:08:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/TODO/3.Create Task/android.widget.CreateTask"), 0): Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:08:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/3.Create Task/android.widget.CreateTask'
+
+11-11-2024T19:08:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle"), TaskTitle): Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:08:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TODO/3.Create Task/android.widget.TextView - Dashboard TaskTitle' are matched.
+
+11-11-2024T19:08:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Block/Create Task' successfully
+
+11-11-2024T19:08:49 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption'
+
+11-11-2024T19:08:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.ImageButton - TaskOption'
+
+11-11-2024T19:08:49 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete'
+
+11-11-2024T19:08:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.TextView - Delete'
+
+11-11-2024T19:08:50 - [TEST_STEP][PASSED] - tap(findTestObject("TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE"), 0): Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE'
+
+11-11-2024T19:08:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-11-2024T19:08:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TODO/1.Dashboard/1.1.TaskOption/android.widget.Button - DELETE'
+
+11-11-2024T19:08:51 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+11-11-2024T19:08:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-11-2024T19:05:07 - [TEST_SUITE][PASSED] - TS_Delete Task: Test Cases/TC_Delete Task]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

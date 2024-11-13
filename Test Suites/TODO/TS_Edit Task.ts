@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Edit Task</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>28963177-59a8-4a57-8b41-fd73d1753854</testSuiteGuid>
+   <testCaseLink>
+      <guid>f81fcad0-23a7-4679-8616-e4be27db66bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_TODO/TC_Edit Task</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8eeb7051-0875-4f14-9b65-f184f612a2d5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/KatalonData/eTask</testDataId>
+      </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1bebcc16-b59f-4bee-969f-f2324bd92423</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/KatalonData/Task</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1bebcc16-b59f-4bee-969f-f2324bd92423</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TaskTitle</value>
+         <variableId>e23ce39f-6df6-4cff-bbd5-947ea180483b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1bebcc16-b59f-4bee-969f-f2324bd92423</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Task</value>
+         <variableId>67a1e9c4-ea2b-4249-b527-03f6c3bc17e6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1bebcc16-b59f-4bee-969f-f2324bd92423</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TimeHours</value>
+         <variableId>10b85263-494a-4288-a91f-89079b4d3c5c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1bebcc16-b59f-4bee-969f-f2324bd92423</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TimeMinutes</value>
+         <variableId>6174a353-fe20-42af-b476-0a4aaee28efb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8eeb7051-0875-4f14-9b65-f184f612a2d5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>eTaskTitle</value>
+         <variableId>127374b5-83fe-497f-8ed0-8c8b83b242d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8eeb7051-0875-4f14-9b65-f184f612a2d5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>eTask</value>
+         <variableId>0249fb4e-e4ec-43fa-8758-9bedd52da9f6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8eeb7051-0875-4f14-9b65-f184f612a2d5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>eTimeHours</value>
+         <variableId>2ec6a975-299c-474f-b9a7-50942364849a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>8eeb7051-0875-4f14-9b65-f184f612a2d5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>eTimeMinutes</value>
+         <variableId>92bce45e-4c1c-4465-9d9c-185b85b1b885</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
